@@ -73,11 +73,14 @@ popular:
     updated: Jul 25, 2026
     difficulty: Easy
   - title: All 20 Achievements
-    description: Achievement framework with 20 expected Steam entries. Exact unlock conditions and codes are being verified.
+    description: Complete list of every Steam achievement with unlock conditions and missable warnings.
     image: /images/achievements.webp
     href: /achievements
     iconName: award
-    status: In Progress
+    readingTime: 8 min read
+    updated: Jul 30, 2026
+    difficulty: Normal
+    badge: Updated
   - title: FAQ
     description: Consolidated answers to the most common questions about It Reaches.
     image: /images/tips.webp

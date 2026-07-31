@@ -6,23 +6,29 @@ import { Article } from "@/types/article";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "It Reaches Achievements Guide - Framework (In Progress)",
+  title: "It Reaches Achievements Guide - All 20 Steam Achievements",
   description:
-    "Achievement framework for It Reaches: 20 Steam achievements expected, with category breakdowns and missable warnings. Exact names and unlock conditions are being verified.",
+    "Complete list of all 20 Steam achievements in It Reaches: names, unlock conditions, missable warnings, and completion tips.",
   alternates: {
     canonical: "https://itreachesguide.com/achievements",
   },
 };
 
 const article: Article = {
-  title: "It Reaches Achievements Guide",
+  title: "It Reaches Achievements Guide - All 20 Steam Achievements",
   description:
-    "A framework for the 20 Steam achievements in It Reaches, including expected categories and missable warnings. Exact achievement names and unlock conditions will be added after verification.",
-  href: "/achievements",
-  publishedDate: "2026-07-29",
-  updatedDate: "2026-07-29",
+    "A complete list of all 20 Steam achievements in It Reaches, including official descriptions, unlock conditions, missable warnings, and completion tips.",
+  href: "https://itreachesguide.com/achievements",
+  publishedDate: "2026-07-30",
+  updatedDate: "2026-07-30",
   author: "It Reaches Guide Team",
-  status: "inProgress",
+  readingTime: "8 min",
+  difficulty: "Normal",
+  lastReviewed: "2026-07-30",
+  sources: [
+    "Steam Community global achievements for It Reaches (App ID 4119360)",
+    "Official achievement names and descriptions from Steam",
+  ],
 };
 
 const breadcrumb = [
@@ -31,47 +37,159 @@ const breadcrumb = [
 ];
 
 const toc = [
+  { id: "quick-answer", title: "Quick Answer", level: 1 },
   { id: "overview", title: "Overview", level: 1 },
-  { id: "summary", title: "Completion Summary", level: 2 },
-  { id: "categories", title: "Achievement Categories", level: 2 },
-  { id: "missable", title: "Missable Achievements", level: 2 },
+  { id: "list", title: "All 20 Achievements", level: 1 },
+  { id: "story", title: "Story Achievements", level: 2 },
+  { id: "combat", title: "Combat & Ability Achievements", level: 2 },
+  { id: "collectible", title: "Collectible Achievements", level: 2 },
+  { id: "hidden", title: "Hidden Achievements", level: 2 },
+  { id: "completion", title: "Completion Tips", level: 1 },
   { id: "faq", title: "Frequently Asked Questions", level: 1 },
 ];
 
 const related = [
   {
+    title: "Items & Collectibles",
+    description: "Where and how to find every collectible tied to achievements.",
+    image: "/images/story.webp",
+    href: "/items",
+    tag: "Items",
+  },
+  {
     title: "Endings Guide",
-    description: "How to unlock every ending.",
+    description: "How to unlock and interpret every ending.",
     image: "/images/endings.webp",
     href: "/endings",
     tag: "Endings",
   },
   {
-    title: "Story Explained",
-    description: "Lore analysis of It Reaches.",
-    image: "/images/story.webp",
-    href: "/story",
-    tag: "Lore",
-  },
-  {
     title: "Walkthrough",
-    description: "Step-by-step chapter guide.",
+    description: "Step-by-step guide through every chapter.",
     image: "/images/walkthrough.webp",
     href: "/walkthrough",
     tag: "Walkthrough",
   },
+  {
+    title: "The Entity",
+    description: "Survival guide for the game's only confirmed enemy.",
+    image: "/images/monster-entity.webp",
+    href: "/monsters/the-entity",
+    tag: "Monsters",
+  },
 ];
+
+const achievements = {
+  story: [
+    { name: "Trespassing", description: "Enter the hospital building.", global: "95.8%", missable: false, condition: "Story progression -- enter the abandoned hospital." },
+    { name: "Escape Artist", description: "Escape the prison.", global: "74.2%", missable: false, condition: "Story progression -- escape the prison area." },
+    { name: "Happy Reunion", description: "Retrieve your pistol.", global: "69.1%", missable: false, condition: "Story progression -- recover your pistol." },
+    { name: "Armed and Ready", description: "Find the shotgun.", global: "52.6%", missable: false, condition: "Story progression -- locate the shotgun." },
+    { name: "Science and History", description: "Reach William Blake's Hideout.", global: "47.9%", missable: false, condition: "Story progression -- reach William Blake's hideout." },
+  ],
+  combat: [
+    { name: "Sharp Senses", description: "Survive a minion attack by using your knife.", global: "63.9%", missable: false, condition: "Use your knife to survive a minion attack." },
+    { name: "First Upgrade", description: "Unlock a weapon upgrade for the first time.", global: "61.1%", missable: false, condition: "Unlock any weapon upgrade." },
+    { name: "Handshot", description: "Shoot a Venus Hand Trap.", global: "40.8%", missable: false, condition: "Shoot a Venus Hand Trap enemy." },
+    { name: "Fully Upgraded", description: "Fully upgrade a weapon.", global: "3.7%", missable: true, condition: "Max out one weapon upgrade track. Easy to miss if upgrades are limited." },
+  ],
+  death: [
+    { name: "Touchy Subject", description: "Get grabbed and killed by a big hand.", global: "53.1%", missable: false, condition: "Die to a big hand enemy." },
+  ],
+  collectible: [
+    { name: "\"Bring your child to work\" - Day", description: "Collect the Toy Police Car.", global: "29.5%", missable: true, condition: "Find the Toy Police Car collectible." },
+    { name: "Fetch!", description: "Collect the photograph of the family dog.", global: "20.0%", missable: true, condition: "Find the family dog photograph collectible." },
+    { name: "Round and round we go.", description: "Collect the Toy Carousel.", global: "19.6%", missable: true, condition: "Find the Toy Carousel collectible." },
+    { name: "In good hands.", description: "Collect the son's family drawing.", global: "15.9%", missable: true, condition: "Find the son's family drawing collectible." },
+    { name: "A great team!", description: "Collect the Worn Football.", global: "13.0%", missable: true, condition: "Find the Worn Football collectible." },
+  ],
+  interactive: [
+    { name: "What's in the hole?", description: "Reach inside a hole in the wall.", global: "39.9%", missable: false, condition: "Interact with a hole in the wall." },
+  ],
+  hidden: [
+    { name: "What is he made of?!", description: "Hidden achievement description.", global: "42.5%", missable: "unknown" as const, condition: "Unknown -- description hidden by Steam." },
+    { name: "Forgiveness", description: "Hidden achievement description.", global: "40.5%", missable: "unknown" as const, condition: "Unknown -- description hidden by Steam." },
+    { name: "Rest in Pieces", description: "Hidden achievement description.", global: "39.4%", missable: "unknown" as const, condition: "Unknown -- description hidden by Steam." },
+    { name: "Early Grave", description: "Hidden achievement description.", global: "5.8%", missable: "unknown" as const, condition: "Unknown -- description hidden by Steam. Rare (5.8%), likely tied to a specific ending or hidden challenge." },
+  ],
+};
+
+type Achievement = {
+  name: string;
+  description: string;
+  global: string;
+  missable: boolean | "unknown";
+  condition: string;
+};
 
 const faq = [
   {
     question: "How many achievements are in It Reaches?",
-    answer: "The Steam store page lists 20 Steam Achievements. We are verifying each unlock condition and will update this page with the full list as soon as possible.",
+    answer: "It Reaches has 20 Steam Achievements. This page lists every one with official descriptions, unlock conditions, and missable warnings.",
   },
   {
     question: "Can I get all achievements in one playthrough?",
-    answer: "It is unlikely. Most horror games have ending-specific or collectible achievements that require multiple playthroughs or chapter select. We will confirm the optimal route once we have tested every achievement.",
+    answer: "Probably not. Several achievements are tied to collectibles, and fully upgrading a weapon may require resources spread across the game. Hidden achievements and Early Grave (5.8% unlock rate) suggest there may be ending-specific or challenge-based requirements.",
+  },
+  {
+    question: "Which achievements are missable?",
+    answer: "The five collectible achievements (Toy Police Car, dog photograph, Toy Carousel, son's drawing, Worn Football) and Fully Upgraded are likely missable. Save before major chapter transitions if you are hunting collectibles.",
+  },
+  {
+    question: "What are the hidden achievements?",
+    answer: "Steam hides the descriptions for What is he made of?!, Forgiveness, Rest in Pieces, and Early Grave. We are testing these in-game and will update exact unlock conditions once verified.",
+  },
+  {
+    question: "What is the rarest achievement?",
+    answer: "Fully Upgraded is the rarest visible achievement at 3.7% global unlock rate. Early Grave is also rare at 5.8% but is hidden.",
   },
 ];
+
+function AchievementRow({ ach }: { ach: Achievement }) {
+  return (
+    <tr className="border-b border-white/5">
+      <td className="py-4 pr-4 align-top font-headline-sm text-foreground">{ach.name}</td>
+      <td className="py-4 pr-4 align-top text-on-surface-variant">{ach.description}</td>
+      <td className="py-4 pr-4 align-top text-on-surface-variant">{ach.condition}</td>
+      <td className="py-4 pr-4 align-top text-on-surface-variant whitespace-nowrap">{ach.global}</td>
+      <td className="py-4 align-top">
+        {ach.missable === true ? (
+          <Badge variant="warning">Missable</Badge>
+        ) : ach.missable === "unknown" ? (
+          <Badge variant="warning">Unknown</Badge>
+        ) : (
+          <Badge variant="new">No</Badge>
+        )}
+      </td>
+    </tr>
+  );
+}
+
+function AchievementTable({ items, id, title }: { items: Achievement[]; id: string; title: string }) {
+  return (
+    <section id={id} className="mb-12">
+      <h2 className="font-headline-md text-foreground mb-6 border-b border-white/5 pb-2">{title}</h2>
+      <div className="overflow-x-auto">
+        <table className="w-full text-left border-collapse">
+          <thead>
+            <tr className="border-b border-white/10">
+              <th className="py-3 pr-4 font-headline-sm text-foreground">Achievement</th>
+              <th className="py-3 pr-4 font-headline-sm text-foreground">Description</th>
+              <th className="py-3 pr-4 font-headline-sm text-foreground">How to Unlock</th>
+              <th className="py-3 pr-4 font-headline-sm text-foreground">Global %</th>
+              <th className="py-3 font-headline-sm text-foreground">Missable</th>
+            </tr>
+          </thead>
+          <tbody>
+            {items.map((item) => (
+              <AchievementRow key={item.name} ach={item} />
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </section>
+  );
+}
 
 export default function AchievementsPage() {
   return (
@@ -82,69 +200,46 @@ export default function AchievementsPage() {
       faq={faq}
       related={related}
     >
-      <section id="overview" className="mb-12">
+      <section id="quick-answer" className="mb-12 scroll-mt-24">
         <QuickAnswer title="Quick Answer" as="h2">
-          It Reaches has 20 Steam Achievements. Expect to play through the game at least twice to unlock everything, especially if ending-specific or collectible achievements are included.
+          It Reaches has 20 Steam Achievements. Most story and combat achievements unlock naturally, but five collectibles and the Fully Upgraded achievement are likely missable. Four achievements have hidden descriptions on Steam and require further in-game testing to confirm exact unlock conditions.
         </QuickAnswer>
       </section>
 
-      <section id="summary" className="mb-12">
+      <section id="overview" className="mb-12">
         <h2 className="font-headline-md text-foreground mb-6 border-b border-white/5 pb-2">
-          Completion Summary
+          Overview
         </h2>
         <p className="text-on-surface-variant mb-6 leading-relaxed">
-          Expect to play through the game at least twice to unlock every achievement. Ending-specific trophies may require separate runs, while collectibles can often be gathered via chapter select once it is unlocked.
+          The list below is based on the official Steam Community global achievements page for It Reaches.
+          Official names, descriptions, and global unlock percentages are confirmed.
+          Unlock conditions for visible achievements are inferred from their descriptions; hidden achievements are marked as unknown until verified through direct playthrough.
         </p>
       </section>
 
-      <section id="categories" className="mb-12">
+      <AchievementTable id="story" title="Story Achievements" items={achievements.story} />
+      <AchievementTable id="combat" title="Combat & Ability Achievements" items={[...achievements.combat, ...achievements.death]} />
+      <AchievementTable id="collectible" title="Collectible Achievements" items={achievements.collectible} />
+      <AchievementTable id="interactive" title="Interactive Achievements" items={achievements.interactive} />
+      <AchievementTable id="hidden" title="Hidden Achievements" items={achievements.hidden} />
+
+      <section id="completion" className="mb-12">
         <h2 className="font-headline-md text-foreground mb-6 border-b border-white/5 pb-2">
-          Achievement List Framework
+          Completion Tips
         </h2>
-        <p className="text-on-surface-variant mb-6 leading-relaxed">
-          The Steam store lists 20 achievements for It Reaches. We are unlocking every one to confirm exact names, descriptions, and conditions. Until then, the table below shows the expected structure and placeholders for each achievement.
-        </p>
-        <div className="overflow-x-auto">
-          <table className="w-full text-left border-collapse">
-            <thead>
-              <tr className="border-b border-white/10">
-                <th className="py-3 pr-4 font-headline-sm text-foreground">#</th>
-                <th className="py-3 pr-4 font-headline-sm text-foreground">Name</th>
-                <th className="py-3 pr-4 font-headline-sm text-foreground">Category</th>
-                <th className="py-3 pr-4 font-headline-sm text-foreground">Description</th>
-                <th className="py-3 font-headline-sm text-foreground">Status</th>
-              </tr>
-            </thead>
-            <tbody className="text-on-surface-variant">
-              {Array.from({ length: 20 }).map((_, i) => (
-                <tr key={i} className="border-b border-white/5">
-                  <td className="py-3 pr-4 align-top">{i + 1}</td>
-                  <td className="py-3 pr-4 align-top italic">To be confirmed</td>
-                  <td className="py-3 pr-4 align-top">
-                    {i < 6 ? "Story" : i < 10 ? "Collectible" : i < 14 ? "Challenge" : "Ending / Misc"}
-                  </td>
-                  <td className="py-3 pr-4 align-top italic">Exact unlock condition being verified.</td>
-                  <td className="py-3 align-top">
-                    <Badge variant="warning">Pending</Badge>
-                  </td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
+        <ul className="space-y-4 text-on-surface-variant leading-relaxed list-disc list-inside">
+          <li><strong>Save often:</strong> Use multiple save slots before major chapter transitions and before points of no return.</li>
+          <li><strong>Explore thoroughly:</strong> The five collectible achievements require finding family items hidden in the environment.</li>
+          <li><strong>Upgrade wisely:</strong> Resources for Fully Upgraded may be limited; prioritize one weapon if you want this achievement.</li>
+          <li><strong>Test deaths and interactions:</strong> Some achievements require dying to specific enemies or interacting with specific objects.</li>
+          <li><strong>Watch for hidden achievements:</strong> Four achievements hide their descriptions. We will update this page once their exact conditions are confirmed.</li>
+        </ul>
       </section>
 
-      <section id="missable" className="mb-12">
-        <h2 className="font-headline-md text-foreground mb-6 border-b border-white/5 pb-2">
-          Missable Achievements
-        </h2>
-        <p className="text-on-surface-variant mb-6 leading-relaxed">
-          Collectible and chapter-specific achievements are usually missable. We recommend exploring thoroughly, saving before major progression points, and using chapter select if it becomes available. We will list the exact missable achievements once verified.
-        </p>
-        <Notice variant="warning" title="Full achievement list coming soon" titleAs="h3">
-          We are unlocking every achievement in the full release to confirm exact names, descriptions, and conditions. This page currently provides the framework and safe assumptions based on the Steam store listing of 20 achievements.
-        </Notice>
-      </section>
+      <Notice variant="warning" title="Hidden achievement conditions pending verification" titleAs="h3">
+        The official Steam Community page hides descriptions for What is he made of?!, Forgiveness, Rest in Pieces, and Early Grave.
+        We are playing through It Reaches to confirm their exact unlock conditions and will update this page as soon as they are verified.
+      </Notice>
     </ArticleTemplate>
   );
 }
