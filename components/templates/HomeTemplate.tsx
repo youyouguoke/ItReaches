@@ -9,6 +9,7 @@ import { ScreenshotGallery } from "@/components/sections/ScreenshotGallery";
 import { FAQ } from "@/components/article/FAQ";
 import { FAQSchema } from "@/components/seo/FAQSchema";
 import { VideoGameSchema } from "@/components/seo/VideoGameSchema";
+import { WebSiteSchema } from "@/components/seo/WebSiteSchema";
 import { BreadcrumbSchema } from "@/components/seo/BreadcrumbSchema";
 import { Container } from "@/components/layout/Container";
 import type {
@@ -51,6 +52,7 @@ export function HomeTemplate({
 
   return (
     <main>
+      <WebSiteSchema />
       <VideoGameSchema />
       <FAQSchema items={faqItems} />
       <BreadcrumbSchema
@@ -61,7 +63,7 @@ export function HomeTemplate({
       />
 
       <Hero
-        title="It Reaches Guide"
+        title="It Reaches Guide - Walkthrough, Endings, Puzzles & Tips"
         subtitle="Complete walkthrough, puzzle solutions, endings, monster survival tips, and lore for It Reaches. Updated for the Steam launch version."
         background={game.heroBackground}
         features={trust.coverage}
@@ -98,6 +100,7 @@ export function HomeTemplate({
                   controllerSupport: game.controllerSupport,
                   languages: game.languages,
                   engine: game.engine,
+                  price: game.price,
                   steamUrl: game.steamUrl,
                 }}
               />

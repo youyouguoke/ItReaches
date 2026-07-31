@@ -4,6 +4,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
+import { MobileBottomNav } from "@/components/layout/MobileBottomNav";
 import { Analytics } from "@/components/analytics/Analytics";
 
 const display = Plus_Jakarta_Sans({
@@ -61,8 +62,9 @@ export default function RootLayout({
         className={`${display.variable} ${body.variable} ${label.variable} font-body text-body-md antialiased bg-background text-foreground`}
       >
         <Header />
-        <div className="pt-16">{children}</div>
+        <div className="pt-16 pb-16 md:pb-0">{children}</div>
         <Footer />
+        <MobileBottomNav />
       </body>
     </html>
   );

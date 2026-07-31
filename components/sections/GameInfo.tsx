@@ -12,6 +12,7 @@ interface GameInfoData {
   controllerSupport?: string;
   languages?: string;
   engine?: string;
+  price?: string;
   steamUrl?: string;
 }
 
@@ -31,7 +32,7 @@ export function GameInfo({ info }: GameInfoProps) {
     ...(info.modes ? [{ label: "Game Modes", value: info.modes }] : []),
     ...(info.controllerSupport ? [{ label: "Controller", value: info.controllerSupport }] : []),
     ...(info.languages ? [{ label: "Languages", value: info.languages }] : []),
-    ...(info.engine ? [{ label: "Engine", value: info.engine }] : []),
+    ...(info.price ? [{ label: "Price", value: info.price }] : []),
   ];
 
   return (
