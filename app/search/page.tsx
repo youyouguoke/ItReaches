@@ -1,27 +1,27 @@
 import { Container } from "@/components/layout/Container";
+import { SearchClient } from "@/components/search/SearchClient";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Search",
-  description: "Search It Reaches Guide for walkthroughs, puzzle solutions, and lore.",
+  title: "Search - It Reaches Guide",
+  description: "Search walkthroughs, puzzle solutions, endings, characters, monster strategies, and lore for It Reaches.",
+  alternates: {
+    canonical: "https://itreachesguide.com/search",
+  },
 };
 
 export default function SearchPage() {
   return (
     <main className="py-24">
       <Container>
-        <h1 className="font-display text-display-lg-mobile md:text-display-lg text-foreground mb-6">
+        <h1 className="font-display text-display-lg-mobile md:text-display-lg text-foreground mb-4">
           Search
         </h1>
-        <p className="text-on-surface-variant mb-8">
-          Search functionality is coming soon. Browse the guides below or use the navigation menu.
+        <p className="text-on-surface-variant mb-8 max-w-2xl">
+          Find walkthroughs, characters, puzzle guides, monster tactics, items, and FAQ answers across the entire It Reaches Guide.
         </p>
-        <input
-          type="text"
-          placeholder="Search guides..."
-          className="w-full max-w-xl bg-surface border border-white/10 p-4 text-foreground focus:border-primary focus:outline-none"
-          disabled
-        />
+
+        <SearchClient />
       </Container>
     </main>
   );
