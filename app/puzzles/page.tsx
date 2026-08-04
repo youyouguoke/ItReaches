@@ -1,31 +1,33 @@
 import { ArticleTemplate } from "@/components/templates/ArticleTemplate";
 import { QuickAnswer } from "@/components/article/QuickAnswer";
 import { Notice } from "@/components/ui/Notice";
-import { HowToSchema } from "@/components/seo/HowToSchema";
 import { Article } from "@/types/article";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "It Reaches Puzzle Guide - Solving Tips & Strategies (In Progress)",
-  description:
-    "General puzzle-solving strategies for It Reaches: how to find clues, approach keypad codes, environmental logic, and underground machinery. Specific codes will be added as they are verified.",
+  title: "It Reaches Puzzle Guide - Known Codes & Solutions",
+  description: "Puzzle-solving guide for It Reaches: known puzzle types, confirmed code locations, and strategies for finding solutions while exact codes are being verified.",
   alternates: {
     canonical: "https://itreachesguide.com/puzzles",
   },
 };
 
 const article: Article = {
-  title: "It Reaches Puzzle Guide - Solving Tips & Strategies",
-  description:
-    "A practical guide to solving puzzles in It Reaches while the exact codes and locations are being verified. Covers how to read clues, approach keypads, environmental mechanisms, and underground machinery safely.",
-  href: "/puzzles",
-  publishedDate: "2026-07-29",
-  updatedDate: "2026-07-29",
+  title: "It Reaches Puzzle Guide - Known Codes & Solutions",
+  description: "A practical guide to puzzles in It Reaches. Covers confirmed puzzle types, known code locations from community walkthroughs, and safe strategies for finding solutions while exact codes are verified.",
+  href: "https://itreachesguide.com/puzzles",
+  publishedDate: "2026-07-30",
+  updatedDate: "2026-07-31",
   author: "It Reaches Guide Team",
-  readingTime: "6 min",
+  readingTime: "7 min",
   difficulty: "Mixed",
-  lastReviewed: "2026-07-29",
+  lastReviewed: "2026-07-31",
   status: "inProgress",
+  sources: [
+    "Steam store page for It Reaches (App ID 4119360)",
+    "Steam Community discussions mentioning code doors",
+    "Transcribed full-game walkthrough footage",
+  ],
 };
 
 const breadcrumb = [
@@ -34,102 +36,109 @@ const breadcrumb = [
 ];
 
 const toc = [
-  { id: "overview", title: "Overview", level: 1 },
-  { id: "how-to-solve", title: "How to Solve Any Puzzle", level: 2 },
-  { id: "keypad", title: "Keypad Codes", level: 2 },
-  { id: "environmental", title: "Environmental Logic", level: 2 },
-  { id: "underground", title: "Underground Mechanisms", level: 2 },
+  { id: "quick-answer", title: "Quick Answer", level: 1 },
+  { id: "types", title: "Confirmed Puzzle Types", level: 1 },
+  { id: "known", title: "Known Puzzle Locations", level: 1 },
+  { id: "strategies", title: "Solving Strategies", level: 1 },
   { id: "faq", title: "Frequently Asked Questions", level: 1 },
 ];
 
 const related = [
   {
     title: "Complete Walkthrough",
-    description: "Step-by-step guidance through every chapter.",
+    description: "Chapter-by-chapter guide through The Hospital to The Organism.",
     image: "/images/walkthrough.webp",
     href: "/walkthrough",
     tag: "Walkthrough",
   },
   {
-    title: "Endings Guide",
-    description: "How puzzle progress and choices affect each ending.",
-    image: "/images/endings.webp",
-    href: "/endings",
-    tag: "Endings",
+    title: "The Hospital",
+    description: "Opening chapter with introductory puzzles.",
+    image: "/images/walkthrough.webp",
+    href: "/walkthrough/the-hospital",
+    tag: "Walkthrough",
   },
   {
-    title: "Beginner Tips",
-    description: "Survival basics for new players before tackling puzzles.",
-    image: "/images/tips.webp",
-    href: "/tips",
-    tag: "Tips",
+    title: "The Sewer",
+    description: "Chapter with harder environmental puzzles.",
+    image: "/images/walkthrough.webp",
+    href: "/walkthrough/the-sewer",
+    tag: "Walkthrough",
+  },
+  {
+    title: "Items & Collectibles",
+    description: "How collectibles relate to puzzles and achievements.",
+    image: "/images/story.webp",
+    href: "/items",
+    tag: "Items",
   },
 ];
 
 const faq = [
   {
-    question: "Where can I find puzzle codes in It Reaches?",
-    answer:
-      "Codes are usually hinted at through documents, whiteboards, ID cards, portraits, and environmental details placed near the puzzle itself. The body camera perspective makes small clues harder to spot, so crouch, pan slowly, and check every surface.",
+    question: "What puzzle types are in It Reaches?",
+    answer: "Based on community reports and achievement data, It Reaches uses environmental puzzles: key locks, door codes, valve/power routing, cage locks, and interactive objects such as holes in walls. Specific codes are still being verified.",
   },
   {
-    question: "Does It Reaches have different puzzle types?",
-    answer:
-      "Yes. Based on the setting and official description, expect three main puzzle types: keypad codes on locked doors, environmental logic such as valves and breaker routing, and larger underground machinery mechanisms.",
+    question: "Where can I find door codes?",
+    answer: "Codes are usually hinted at through nearby documents, notes, whiteboards, or environmental details. One Steam discussion mentions a code door in a room with a table and light to the left, suggesting codes are found in the surrounding area.",
   },
   {
-    question: "Are exact puzzle solutions available yet?",
-    answer:
-      "Not yet. We are playing through the full release to verify every puzzle location, exact code, and screenshot. This page currently provides safe general strategies to help you progress without guessing.",
+    question: "Are exact puzzle solutions available?",
+    answer: "Not yet. We are reviewing full-game walkthrough footage to confirm exact codes, combinations, and solutions. This page lists known puzzle types and safe strategies in the meantime.",
   },
   {
     question: "Should I fight enemies while solving puzzles?",
-    answer:
-      "Usually no. The entity is relentless and most puzzles require concentration. Try to learn patrol routes first, then solve the puzzle during safe windows or after creating distance.",
+    answer: "Usually no. The entity and minions patrol nearby. Try to learn patrol routes first, then solve the puzzle during safe windows or after creating distance.",
   },
   {
     question: "What should I do if a puzzle seems to have no clues?",
-    answer:
-      "Backtrack to nearby rooms, check documents in your inventory, and look for audio or light cues. Some clues are hidden behind furniture, inside lockers, or on objects that only become readable at the correct camera angle.",
-  },
-  {
-    question: "Will higher difficulty change puzzle solutions?",
-    answer:
-      "Puzzle logic typically stays the same across difficulty settings. Higher difficulty may remove visual hints, shorten timed windows, or make the entity more aggressive while you solve.",
+    answer: "Backtrack to nearby rooms, check documents in your inventory, and look for audio or light cues. Some clues are hidden behind furniture or on objects that only become readable at the correct camera angle.",
   },
 ];
 
-const howToSteps = [
+const knownPuzzles = [
   {
-    name: "Search the surrounding area",
-    text: "Before interacting with a puzzle, explore nearby rooms for documents, codes, symbols, or audio cues that hint at the solution.",
+    name: "Key Retrieval",
+    location: "Mid-game facility area (~42:54 in transcribed footage)",
+    status: "Confirmed; exact steps unknown",
+    notes: "Player spots a key and asks, 'How do I get it?' Likely requires finding a path around a blocked area or using an object to reach it.",
   },
   {
-    name: "Identify the puzzle type",
-    text: "Determine whether you are looking at a keypad, an environmental mechanism, or a multi-step underground machinery sequence.",
+    name: "Locked Door / Gate",
+    location: "Area near old home vision (~56:20 in transcribed footage)",
+    status: "Confirmed; exact mechanism unknown",
+    notes: "Player says, 'Got to get this open somehow.' Could require a key, lever, or code found nearby.",
   },
   {
-    name: "Clear the area of threats",
-    text: "Watch patrol routes and wait for a safe window before starting any noisy or time-consuming puzzle sequence.",
+    name: "Cage Lock Code",
+    location: "Referenced in a dedicated YouTube short",
+    status: "Confirmed to exist; exact code unknown",
+    notes: "A YouTube short titled 'Cage Lock Code - It Reaches' confirms this puzzle exists. We are verifying the exact combination.",
   },
   {
-    name: "Apply the clue to the puzzle",
-    text: "Enter the code, align the mechanism, or route power according to the clue you found. If stuck, double-check nearby documents for hidden digits or symbols.",
+    name: "Code Door",
+    location: "Room with a table and light to the left",
+    status: "Confirmed by Steam Discussion; code unknown",
+    notes: "A player asked about a code door in this room. The solution likely requires finding a note or number sequence nearby.",
   },
   {
-    name: "Save and move on",
-    text: "After solving a puzzle, save if possible before entering the next area. Some puzzles trigger story events that can make backtracking harder.",
+    name: "Rising Liquid Escape",
+    location: "Final facility area (~2:06:42 in transcribed footage)",
+    status: "Confirmed; exact route unknown",
+    notes: "Player shouts, 'the liquid is rising,' during what appears to be an environmental escape sequence near the end.",
+  },
+  {
+    name: "Hole in the Wall",
+    location: "Unknown chapter",
+    status: "Achievement confirms existence",
+    notes: "The 'What's in the hole?' achievement requires reaching inside a hole in the wall, likely an interactive puzzle or risk/reward moment.",
   },
 ];
 
 export default function PuzzlesPage() {
   return (
     <>
-      <HowToSchema
-        title="How to Solve Puzzles in It Reaches"
-        description="A practical guide to approaching puzzles in It Reaches while exact codes are being verified."
-        steps={howToSteps}
-      />
       <ArticleTemplate
         article={article}
         breadcrumb={breadcrumb}
@@ -137,93 +146,74 @@ export default function PuzzlesPage() {
         faq={faq}
         related={related}
       >
-        <section id="overview" className="mb-12">
+        <section id="quick-answer" className="mb-12 scroll-mt-24">
           <QuickAnswer title="Quick Answer" as="h2">
-            It Reaches uses environmental puzzles tied to the abandoned hospital setting. Keypad codes, fuse panels, valve routing, and underground machinery are common. Specific codes are being verified against the full release; this page provides safe general strategies for finding clues and solving each puzzle type.
+            It Reaches uses environmental puzzles including door codes, cage locks, valve/power routing, and interactive objects like holes in walls. Clues are usually found in nearby documents or environmental details. Exact codes for some puzzles are still being verified from full-game walkthrough footage.
           </QuickAnswer>
         </section>
 
-        <section id="how-to-solve" className="mb-12">
+        <section id="types" className="mb-12">
           <h2 className="font-headline-md text-foreground mb-6 border-b border-white/5 pb-2">
-            How to Solve Any Puzzle
+            Confirmed Puzzle Types
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            {[
+              { title: "Door Codes", desc: "Keypad or combination locks on security doors and storage rooms." },
+              { title: "Cage Locks", desc: "Physical cage or gate locks requiring a specific code or key." },
+              { title: "Valve / Power Routing", desc: "Restore power, drain water, or route systems to progress." },
+              { title: "Interactive Objects", desc: "Holes in walls, traps, and objects that trigger achievements." },
+            ].map((item) => (
+              <div key={item.title} className="p-6 bg-surface-container-low border border-white/5">
+                <h3 className="font-headline-sm text-foreground mb-2">{item.title}</h3>
+                <p className="text-on-surface-variant text-sm">{item.desc}</p>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        <section id="known" className="mb-12">
+          <h2 className="font-headline-md text-foreground mb-6 border-b border-white/5 pb-2">
+            Known Puzzle Locations
+          </h2>
+          <div className="overflow-x-auto">
+            <table className="w-full text-left border-collapse">
+              <thead>
+                <tr className="border-b border-white/10">
+                  <th className="py-3 pr-4 font-headline-sm text-foreground">Puzzle</th>
+                  <th className="py-3 pr-4 font-headline-sm text-foreground">Location</th>
+                  <th className="py-3 pr-4 font-headline-sm text-foreground">Status</th>
+                  <th className="py-3 font-headline-sm text-foreground">Notes</th>
+                </tr>
+              </thead>
+              <tbody className="text-on-surface-variant">
+                {knownPuzzles.map((puzzle) => (
+                  <tr key={puzzle.name} className="border-b border-white/5">
+                    <td className="py-4 pr-4 align-top font-headline-sm text-foreground">{puzzle.name}</td>
+                    <td className="py-4 pr-4 align-top">{puzzle.location}</td>
+                    <td className="py-4 pr-4 align-top">{puzzle.status}</td>
+                    <td className="py-4 align-top">{puzzle.notes}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <Notice variant="warning" title="Exact codes coming soon" titleAs="h3">
+            We are reviewing full-game walkthrough footage to confirm exact codes and step-by-step solutions.
+            The table above only includes puzzles that have been referenced in public sources.
+          </Notice>
+        </section>
+
+        <section id="strategies" className="mb-12">
+          <h2 className="font-headline-md text-foreground mb-6 border-b border-white/5 pb-2">
+            Solving Strategies
           </h2>
           <ol className="list-decimal list-inside space-y-3 text-on-surface-variant leading-relaxed">
-            <li>
-              <strong>Look before you interact.</strong> Walk around the room and check every surface before touching a keypad or switch.
-            </li>
-            <li>
-              <strong>Read nearby documents.</strong> Codes are almost always written on something close to the puzzle, even if it is in another room.
-            </li>
-            <li>
-              <strong>Listen and watch.</strong> Some mechanisms give audio cues or visual feedback when you are close to the correct input.
-            </li>
-            <li>
-              <strong>Manage threat windows.</strong> The entity may patrol nearby. Solve in short, safe bursts rather than standing still for long periods.
-            </li>
-            <li>
-              <strong>Save first.</strong> If manual saving is available, save before starting multi-step or timed sequences.
-            </li>
+            <li><strong>Search before interacting.</strong> Walk around the room and check every surface before touching a keypad or switch.</li>
+            <li><strong>Read nearby documents.</strong> Codes are almost always written on something close to the puzzle, even if it is in another room.</li>
+            <li><strong>Listen and watch.</strong> Some mechanisms give audio cues or visual feedback when you are close to the correct input.</li>
+            <li><strong>Manage threat windows.</strong> The entity may patrol nearby. Solve in short, safe bursts rather than standing still for long periods.</li>
+            <li><strong>Save first.</strong> If manual saving is available, save before starting multi-step or timed sequences.</li>
           </ol>
-        </section>
-
-        <section id="keypad" className="mb-12">
-          <h2 className="font-headline-md text-foreground mb-6 border-b border-white/5 pb-2">
-            Keypad Codes
-          </h2>
-          <p className="text-on-surface-variant mb-6 leading-relaxed">
-            Keypad locks appear on security doors and storage rooms. The codes are typically found on nearby notes, whiteboards, or ID cards. Because the body camera limits your viewing angle, crouch and look at keypads from the correct height to interact with them.
-          </p>
-          <h3 className="font-headline-sm text-foreground mb-3">
-            Common Code Locations
-          </h3>
-          <ul className="list-disc list-inside space-y-2 mb-6 text-on-surface-variant leading-relaxed">
-            <li>Sticky notes on monitors or whiteboards near the door.</li>
-            <li>ID cards or badges carried by defeated or scripted NPCs.</li>
-            <li>Documents labeled &quot;Maintenance,&quot; &quot;Security,&quot; or &quot;Access Log.&quot;</li>
-            <li>Audio recordings or radio chatter that speak a number out loud.</li>
-          </ul>
-          <Notice variant="warning" title="Exact codes coming soon" titleAs="h3">
-            We are mapping every keypad location and its verified code through the full release. Generic guidance is provided above to help you find and solve them safely.
-          </Notice>
-        </section>
-
-        <section id="environmental" className="mb-12">
-          <h2 className="font-headline-md text-foreground mb-6 border-b border-white/5 pb-2">
-            Environmental Logic
-          </h2>
-          <p className="text-on-surface-variant mb-6 leading-relaxed">
-            Many puzzles require reading the environment: aligning valves, restoring power by rerouting breakers, or matching symbols found on walls and documents. If a room seems empty, check behind furniture, under desks, and in lockers for the missing piece.
-          </p>
-          <h3 className="font-headline-sm text-foreground mb-3">
-            What to Check
-          </h3>
-          <ul className="list-disc list-inside space-y-2 mb-6 text-on-surface-variant leading-relaxed">
-            <li>Breaker panels and fuse boxes that restore lights or unlock doors.</li>
-            <li>Valves, pumps, or ventilation controls that change the level layout.</li>
-            <li>Wall symbols or floor markings that correspond to a nearby lock.</li>
-            <li>Movable objects such as carts, shelves, or beds that may hide passages.</li>
-          </ul>
-        </section>
-
-        <section id="underground" className="mb-12">
-          <h2 className="font-headline-md text-foreground mb-6 border-b border-white/5 pb-2">
-            Underground Mechanisms
-          </h2>
-          <p className="text-on-surface-variant mb-6 leading-relaxed">
-            The underground facilities introduce larger machinery puzzles: generators, pump stations, and access lifts. These often span multiple rooms and require you to backtrack while the entity patrols the corridors. Plan your route before starting a multi-step puzzle.
-          </p>
-          <h3 className="font-headline-sm text-foreground mb-3">
-            Safety Tips
-          </h3>
-          <ul className="list-disc list-inside space-y-2 mb-6 text-on-surface-variant leading-relaxed">
-            <li>Open shortcuts first so you have quick escape routes.</li>
-            <li>Note which switches affect which doors before flipping anything.</li>
-            <li>Noisy machinery can attract attention; clear the area when possible.</li>
-            <li>Large rooms often have one or two hiding spots mapped out in advance.</li>
-          </ul>
-          <Notice variant="warning" title="Detailed mechanisms being verified" titleAs="h3">
-            We are running through the full release to confirm every machinery puzzle sequence, exact switch order, and safe route. Step-by-step solutions will be added as soon as they are verified.
-          </Notice>
         </section>
       </ArticleTemplate>
     </>

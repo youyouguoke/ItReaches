@@ -11,7 +11,7 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "It Reaches Walkthrough - Complete Chapter Guide",
-  description: "Complete It Reaches walkthrough with all six chapters: Awakening, Ventilation, The Reach, Comm Tower, Sub Level, and Oblivion. Includes objectives, puzzles, danger areas, tips, and endings.",
+  description: "Complete It Reaches walkthrough with official chapters: The Hospital, The Basement, The Sewer, The Sewer Hideout, and The Organism. Includes chapter timestamps, objectives, puzzles, and tips.",
   alternates: {
     canonical: "https://itreachesguide.com/walkthrough",
   },
@@ -19,18 +19,18 @@ export const metadata: Metadata = {
 
 const article: Article = {
   title: "It Reaches Walkthrough - Complete Chapter Guide",
-  description: "A full chapter-by-chapter walkthrough for It Reaches. Covers the six main chapters, objectives, puzzles, danger areas, collectibles, and tips for each section.",
+  description: "A full chapter-by-chapter walkthrough for It Reaches. Covers the five main chapters with official timestamps from a full-game walkthrough, plus objectives, puzzles, danger areas, collectibles, and tips.",
   href: "https://itreachesguide.com/walkthrough",
   publishedDate: "2026-07-29",
-  updatedDate: "2026-07-29",
+  updatedDate: "2026-07-31",
   author: "It Reaches Guide Team",
-  readingTime: "15 min",
+  readingTime: "12 min",
   difficulty: "Medium",
-  lastReviewed: "2026-07-29",
+  lastReviewed: "2026-07-31",
   sources: [
     "Steam store page for It Reaches (App ID 4119360)",
-    "Official descriptions of protagonist Jason Thompson and bodycam perspective",
-    "Community-reported chapter structure from the It Reaches player hub",
+    "DanQ8000 full gameplay walkthrough chapter timestamps",
+    "Steam Community global achievement statistics",
   ],
 };
 
@@ -43,42 +43,36 @@ const toc = [
   { id: "quick-answer", title: "Quick Answer", level: 1 },
   { id: "before-you-start", title: "Before You Start", level: 1 },
   { id: "chapter-overview", title: "Chapter Overview", level: 1 },
-  { id: "chapter-1", title: "Chapter 1: Awakening", level: 2 },
+  { id: "chapter-1", title: "Chapter 1: The Hospital", level: 2 },
   { id: "chapter-1-overview", title: "Overview", level: 3 },
   { id: "chapter-1-objectives", title: "Objectives", level: 3 },
   { id: "chapter-1-puzzles", title: "Key Puzzles", level: 3 },
   { id: "chapter-1-danger", title: "Danger Areas", level: 3 },
   { id: "chapter-1-tips", title: "Tips", level: 3 },
-  { id: "chapter-2", title: "Chapter 2: Ventilation", level: 2 },
+  { id: "chapter-2", title: "Chapter 2: The Basement", level: 2 },
   { id: "chapter-2-overview", title: "Overview", level: 3 },
   { id: "chapter-2-objectives", title: "Objectives", level: 3 },
   { id: "chapter-2-puzzles", title: "Key Puzzles", level: 3 },
   { id: "chapter-2-danger", title: "Danger Areas", level: 3 },
   { id: "chapter-2-tips", title: "Tips", level: 3 },
-  { id: "chapter-3", title: "Chapter 3: The Reach", level: 2 },
+  { id: "chapter-3", title: "Chapter 3: The Sewer", level: 2 },
   { id: "chapter-3-overview", title: "Overview", level: 3 },
   { id: "chapter-3-objectives", title: "Objectives", level: 3 },
   { id: "chapter-3-puzzles", title: "Key Puzzles", level: 3 },
   { id: "chapter-3-danger", title: "Danger Areas", level: 3 },
   { id: "chapter-3-tips", title: "Tips", level: 3 },
-  { id: "chapter-4", title: "Chapter 4: Comm Tower", level: 2 },
+  { id: "chapter-4", title: "Chapter 4: The Sewer Hideout", level: 2 },
   { id: "chapter-4-overview", title: "Overview", level: 3 },
   { id: "chapter-4-objectives", title: "Objectives", level: 3 },
   { id: "chapter-4-puzzles", title: "Key Puzzles", level: 3 },
   { id: "chapter-4-danger", title: "Danger Areas", level: 3 },
   { id: "chapter-4-tips", title: "Tips", level: 3 },
-  { id: "chapter-5", title: "Chapter 5: Sub Level", level: 2 },
+  { id: "chapter-5", title: "Chapter 5: The Organism", level: 2 },
   { id: "chapter-5-overview", title: "Overview", level: 3 },
   { id: "chapter-5-objectives", title: "Objectives", level: 3 },
   { id: "chapter-5-puzzles", title: "Key Puzzles", level: 3 },
   { id: "chapter-5-danger", title: "Danger Areas", level: 3 },
   { id: "chapter-5-tips", title: "Tips", level: 3 },
-  { id: "chapter-6", title: "Chapter 6: Oblivion", level: 2 },
-  { id: "chapter-6-overview", title: "Overview", level: 3 },
-  { id: "chapter-6-objectives", title: "Objectives", level: 3 },
-  { id: "chapter-6-puzzles", title: "Key Puzzles", level: 3 },
-  { id: "chapter-6-danger", title: "Danger Areas", level: 3 },
-  { id: "chapter-6-tips", title: "Tips", level: 3 },
   { id: "whats-next", title: "What\'s Next", level: 1 },
   { id: "faq", title: "Frequently Asked Questions", level: 1 },
   { id: "sources", title: "Sources & Disclaimer", level: 1 },
@@ -118,7 +112,7 @@ const related = [
 const faq = [
   {
     question: "How many chapters are in It Reaches?",
-    answer: "Based on the community-reported player hub structure, It Reaches appears to be divided into six main chapters: Awakening, Ventilation, The Reach, Comm Tower, Sub Level, and Oblivion. These names and order have not been officially confirmed by the developer and will be verified against the full release.",
+    answer: "It Reaches has five main gameplay chapters: The Hospital, The Basement, The Sewer, The Sewer Hideout, and The Organism. These names and timestamps are based on the chapter markers visible in DanQ8000&apos;s full-game walkthrough.",
   },
   {
     question: "Who is the playable character in It Reaches?",
@@ -126,7 +120,7 @@ const faq = [
   },
   {
     question: "How long does It Reaches take to complete?",
-    answer: "A standard first playthrough is estimated at 4-6 hours depending on exploration and difficulty. Completionist runs for all endings and achievements may take 8-12 hours.",
+    answer: "A standard first playthrough is estimated at 3-5 hours depending on exploration. Completionist runs for all achievements may take 4-6 hours.",
   },
   {
     question: "Can you replay chapters in It Reaches?",
@@ -134,19 +128,11 @@ const faq = [
   },
   {
     question: "Can you miss collectibles or achievements?",
-    answer: "Yes. Some documents, collectibles, and ending conditions are likely missable. Save before the final sequence of each chapter and use multiple save slots if you are hunting achievements.",
+    answer: "Yes. Some documents, collectibles, and achievement conditions are likely missable. Save before the final sequence of each chapter and use multiple save slots if you are hunting achievements.",
   },
   {
     question: "What is the best ending?",
-    answer: "The best ending likely requires completing all chapters, collecting key documents, and making correct choices in the final chapter. See the Endings Guide for a full breakdown once confirmed.",
-  },
-  {
-    question: "Does It Reaches have a hard mode?",
-    answer: "Difficulty options have not been confirmed in the official Steam description. We will update this answer as soon as the release build is available.",
-  },
-  {
-    question: "What should I do first in Chapter 1?",
-    answer: "Learn the body camera movement and field of view. Explore the opening area for supplies and documents, then follow the main objective marker to exit the prologue section.",
+    answer: "The best ending likely requires completing all chapters and collecting key documents. See the Endings Guide for a full breakdown once confirmed.",
   },
   {
     question: "Are the puzzles in It Reaches hard?",
@@ -159,21 +145,19 @@ const faq = [
 ];
 
 const howToSteps = [
-  { name: "Start Chapter 1: Awakening", text: "Learn the body camera controls, explore the opening area, and follow the main objective to exit the prologue." },
-  { name: "Survive Chapter 2: Ventilation", text: "Move through the maintenance tunnels using stealth. Avoid the entity and solve the first environmental puzzles." },
-  { name: "Navigate Chapter 3: The Reach", text: "Explore wider hospital areas while the entity becomes a persistent threat. Collect documents and solve key puzzles." },
-  { name: "Restore Chapter 4: Comm Tower", text: "Repair power or signal systems to progress. Watch for patrols between objectives." },
-  { name: "Descend Chapter 5: Sub Level", text: "Enter the underground facilities, solve multi-step machinery puzzles, and manage limited resources." },
-  { name: "Complete Chapter 6: Oblivion", text: "Reach the final sequence, make ending-determining choices, and unlock the conclusion based on your progress." },
+  { name: "Chapter 1: The Hospital", text: "Learn the body camera controls, explore the abandoned hospital, and earn the Trespassing achievement." },
+  { name: "Chapter 2: The Basement", text: "Escape the prison area, recover your pistol, and survive the first enemy encounters." },
+  { name: "Chapter 3: The Sewer", text: "Navigate the flooded sewer tunnels, solve environmental puzzles, and find the shotgun." },
+  { name: "Chapter 4: The Sewer Hideout", text: "Reach William Blake&apos;s Hideout, collect family items, and prepare for the final chapter." },
+  { name: "Chapter 5: The Organism", text: "Survive the final encounter, make ending-determining choices, and unlock the conclusion." },
 ];
 
 const progressChapters = [
-  { chapter: "Awakening", playtime: "20-40 min", puzzle: "Tutorial", boss: "None", collectibles: "Documents", difficulty: "Low" as const },
-  { chapter: "Ventilation", playtime: "30-50 min", puzzle: "Environmental", boss: "Stealth section", collectibles: "Documents, supplies", difficulty: "Medium" as const },
-  { chapter: "The Reach", playtime: "45-75 min", puzzle: "Multi-step", boss: "Entity chase", collectibles: "Documents, key items", difficulty: "High" as const },
-  { chapter: "Comm Tower", playtime: "40-60 min", puzzle: "Power / signal", boss: "Patrol encounter", collectibles: "Documents, supplies", difficulty: "Medium" as const },
-  { chapter: "Sub Level", playtime: "60-90 min", puzzle: "Machinery", boss: "Major set-piece", collectibles: "Documents, missables", difficulty: "Very High" as const },
-  { chapter: "Oblivion", playtime: "30-50 min", puzzle: "Final puzzle", boss: "Final encounter", collectibles: "Ending items", difficulty: "High" as const },
+  { chapter: "The Hospital", playtime: "10-20 min", puzzle: "Tutorial", boss: "None", collectibles: "Documents", difficulty: "Low" as const },
+  { chapter: "The Basement", playtime: "70-90 min", puzzle: "Environmental", boss: "Minions / big hand", collectibles: "Documents, supplies", difficulty: "Medium" as const },
+  { chapter: "The Sewer", playtime: "60-80 min", puzzle: "Valve / power", boss: "Entity chase", collectibles: "Toy Police Car, dog photo", difficulty: "High" as const },
+  { chapter: "The Sewer Hideout", playtime: "70-90 min", puzzle: "Multi-step", boss: "Major set-piece", collectibles: "Toy Carousel, drawing, football", difficulty: "Very High" as const },
+  { chapter: "The Organism", playtime: "15-25 min", puzzle: "Final puzzle", boss: "Final encounter", collectibles: "Ending items / last achievement", difficulty: "High" as const },
 ];
 
 export default function WalkthroughPage() {
@@ -194,24 +178,24 @@ export default function WalkthroughPage() {
         <section id="quick-answer" className="mb-12 scroll-mt-24">
           <QuickAnswer title="Quick Answer" as="h2">
             <p className="mb-2">
-              <strong>Based on the community-reported player hub structure, It Reaches appears to have six main chapters:</strong> Awakening, Ventilation, The Reach, Comm Tower, Sub Level, and Oblivion.
+              <strong>It Reaches has five main chapters:</strong> The Hospital, The Basement, The Sewer, The Sewer Hideout, and The Organism.
             </p>
             <p>
-              These names and order have not been officially confirmed by the developer and will be verified against the full release. This walkthrough provides the tentative chapter order, expected puzzle progression, survival tips, and links to detailed puzzle and ending guides. Room-by-room steps will be added as we complete our own playthrough.
+              These names and timestamps are based on the chapter markers visible in DanQ8000&apos;s full-game walkthrough. This guide provides the chapter order, expected puzzle progression, survival tips, and links to detailed puzzle and achievement guides. Room-by-room steps will be added as we verify more footage.
             </p>
           </QuickAnswer>
         </section>
 
         <BeforeYouStart
-          estimatedTime="4-6 hours"
+          estimatedTime="3-5 hours"
           difficulty="Medium"
           missables={[
-            "Documents and collectible notes in Chapter 3 and Chapter 5",
-            "Ending-determining choices in Chapter 6",
-            "Some achievements tied to no-save or no-detection runs",
+            "Documents and collectible notes in The Sewer and The Sewer Hideout",
+            "Ending-determining choices in The Organism",
+            "Some achievements tied to collectibles and specific deaths",
           ]}
-          endings="Multiple endings are expected based on choices and collectible progress. Details are in the Endings Guide."
-          achievements="20 Steam achievements total. Several are likely missable or chapter-specific."
+          endings="Multiple endings may exist based on choices and collectible progress. Details are in the Endings Guide."
+          achievements="20 Steam achievements total. Several are missable or chapter-specific."
         />
 
         <ProgressTable chapters={progressChapters} />
@@ -219,35 +203,35 @@ export default function WalkthroughPage() {
         <ChapterSection
           id="chapter-1"
           number={1}
-          title="Awakening"
-          estimatedTime="20-40 min"
+          title="The Hospital"
+          estimatedTime="10-20 min"
           difficulty="Low"
           overview={
             <>
-              The opening chapter introduces officer Jason Thompson and the body camera perspective.
-              You will learn movement, interaction, flashlight use, and how the camera limits your peripheral vision.
-              This chapter sets up the routine police operation that quickly becomes a nightmare.
+              The Hospital is the opening chapter of It Reaches. It introduces officer Jason Thompson, the body camera perspective, and the abandoned hospital setting.
+              Based on DanQ8000&apos;s chapter markers, this chapter runs from approximately 9:02 to 22:54 in a full playthrough.
+              It sets up the routine police operation that quickly becomes a nightmare.
             </>
           }
           objectives={[
-            "Explore the arrival area and learn body camera controls.",
-            "Collect any documents and supplies in the starting rooms.",
-            "Reach the hospital entrance and trigger the next objective.",
-            "Exit the prologue into the main hospital space.",
+            "Enter the hospital building and earn the Trespassing achievement.",
+            "Learn the body camera controls, flashlight, and interaction systems.",
+            "Explore the opening hospital area for documents and supplies.",
+            "Reach the transition point to The Basement.",
           ]}
           puzzles={
             <>
-              The first puzzles are tutorial-level: find a keycard, unlock a door, or restore a light source.
-              These teach the interaction and inventory systems without major punishment for failure.
+              The Hospital contains introductory environmental puzzles: finding keys, restoring light sources, and opening locked doors.
+              Exact room names and code solutions are being verified against walkthrough footage.
             </>
           }
           dangerAreas={[
             "Dark corridors without flashlight backup -- conserve battery.",
-            "The first scripted entity appearance is usually a chase tutorial, not a death trap.",
+            "Areas where the entity makes its first scripted appearances.",
           ]}
           collectibles={[
-            "Tutorial documents near the starting equipment.",
-            "First optional note about the hospital lockdown.",
+            "Documents that introduce the hospital&apos;s history.",
+            "Supplies and optional notes near the starting equipment.",
           ]}
           tips={[
             "Move slowly and pan the camera often; the body camera hides threats in your blind spots.",
@@ -259,190 +243,149 @@ export default function WalkthroughPage() {
         <ChapterSection
           id="chapter-2"
           number={2}
-          title="Ventilation"
-          estimatedTime="30-50 min"
+          title="The Basement"
+          estimatedTime="70-90 min"
           difficulty="Medium"
           overview={
             <>
-              The Ventilation chapter pushes you into the abandoned hospital&apos;s maintenance systems.
-              Tight spaces, limited visibility, and environmental obstacles make this a tutorial for stealth and resource management.
+              The Basement is the longest individual chapter, running from approximately 22:54 to 1:45:26 in DanQ8000&apos;s playthrough.
+              It moves the action into a prison-like underground area where you earn Escape Artist, Happy Reunion, and encounter the first enemies.
             </>
           }
           objectives={[
-            "Navigate the ventilation and maintenance corridors.",
-            "Restore airflow or power to unlock deeper sections.",
-            "Avoid the entity while it patrols the narrow tunnels.",
-            "Reach the exit point leading back into the main hospital.",
+            "Escape the prison area and earn the Escape Artist achievement.",
+            "Retrieve your pistol and earn the Happy Reunion achievement.",
+            "Survive the first minion attacks and learn knife/weapon use.",
+            "Reach the transition point to The Sewer.",
           ]}
           puzzles={
             <>
-              Expect valve-turning, breaker routing, or vent-crawling puzzles.
-              Sound and light are often clues; loud actions may attract the entity in this chapter.
+              The Basement focuses more on combat and evasion than puzzles. Expect door locks, key searches, and environmental traversal.
             </>
           }
           dangerAreas={[
-            "Narrow dead-end vents with no escape route.",
-            "Areas where the entity patrols in a tight loop.",
-            "Flooded or dark sections that slow movement.",
+            "Prison cells and narrow corridors with limited escape routes.",
+            "Areas where minions first appear in numbers.",
+            "Dark sections where the big hand enemy can grab you.",
           ]}
           collectibles={[
-            "Maintenance logs hidden in side rooms.",
-            "Supplies in locked maintenance lockers.",
+            "Documents about the facility&apos;s history.",
+            "First weapon upgrades and supplies.",
           ]}
           tips={[
-            "Crouch-walk to reduce noise in the vents.",
-            "Watch patrol timing before crossing open sections.",
-            "Use side rooms as safe points when the entity passes by.",
+            "Use your knife when a minion grabs you to earn Sharp Senses.",
+            "Conserve ammo early; the pistol is limited until you find more supplies.",
+            "Watch for the big hand enemy that triggers the Touchy Subject death achievement if it kills you.",
           ]}
         />
 
         <ChapterSection
           id="chapter-3"
           number={3}
-          title="The Reach"
-          estimatedTime="45-75 min"
+          title="The Sewer"
+          estimatedTime="60-80 min"
           difficulty="High"
           missable
           overview={
             <>
-              The Reach is where the entity becomes a persistent threat.
-              You must balance exploration with evasion, solve larger environmental puzzles, and begin uncovering the dark mystery behind the facility.
+              The Sewer runs from approximately 1:45:26 to 2:52:55 in DanQ8000&apos;s playthrough.
+              This chapter moves into flooded underground tunnels, introduces harder environmental puzzles, and contains the first family collectibles.
             </>
           }
           objectives={[
-            "Explore the main hospital wings and locate key documents.",
-            "Solve multi-step environmental puzzles to unlock new areas.",
-            "Evade the entity while progressing through the hospital.",
-            "Reach the transition point to the Comm Tower area.",
+            "Navigate the flooded sewer tunnels and reach the next section.",
+            "Solve valve and power-routing puzzles to open gates.",
+            "Find the shotgun and earn the Armed and Ready achievement.",
+            "Collect the first family items tied to achievements.",
           ]}
           puzzles={
             <>
-              This chapter introduces the first major multi-step puzzles: code locks, fuse routing, and key item combinations.
-              Document notes are usually required to find codes.
+              Expect valve-turning, breaker routing, and gate-opening puzzles.
+              The sewer setting often requires draining water or restoring power to progress.
             </>
           }
           dangerAreas={[
-            "Open wards with long sightlines and few hiding spots.",
-            "Stairwells where the entity can cut off your escape.",
-            "Puzzle rooms with noisy machinery that may draw attention.",
+            "Flooded sections that slow movement and limit escape options.",
+            "Open tunnel sections with few hiding spots.",
+            "Puzzle rooms where water levels or enemy patrols create pressure.",
           ]}
           collectibles={[
-            "Lore documents that explain the hospital history.",
-            "Key items required for later chapters.",
-            "First missable achievement collectibles.",
+            "Toy Police Car tied to the \"Bring your child to work\" - Day achievement.",
+            "Photograph of the family dog tied to the Fetch! achievement.",
+            "Documents about the facility&apos;s underground history.",
           ]}
           tips={[
-            "Read every document before leaving an area; codes are often single-use hints.",
-            "If detected, run toward the nearest door or safe room, not into dead ends.",
-            "Backtrack only when the patrol route is clear.",
+            "Explore side paths before opening major gates; some collectibles are missable.",
+            "The shotgun makes combat easier but ammo remains limited.",
+            "Save before long puzzle sequences or before leaving large areas.",
           ]}
         />
 
         <ChapterSection
           id="chapter-4"
           number={4}
-          title="Comm Tower"
-          estimatedTime="40-60 min"
-          difficulty="Medium"
+          title="The Sewer Hideout"
+          estimatedTime="70-90 min"
+          difficulty="Very High"
+          missable
           overview={
             <>
-              Comm Tower shifts the location toward communication and surface access areas.
-              Expect puzzles involving power, signals, or routing, while the entity continues to patrol between objectives.
+              The Sewer Hideout runs from approximately 2:52:55 to 4:09:41 in DanQ8000&apos;s playthrough.
+              It is the late-game chapter where the story converges: you reach William Blake&apos;s Hideout, collect the remaining family items, and unlock the path to The Organism.
             </>
           }
           objectives={[
-            "Reach the communications or surface access area.",
-            "Restore power, signal, or routing systems to progress.",
-            "Avoid patrols while moving between separate tower sections.",
-            "Unlock the path down to the Sub Level facilities.",
+            "Reach William Blake&apos;s Hideout and earn the Science and History achievement.",
+            "Collect the remaining family collectibles tied to achievements.",
+            "Solve the chapter&apos;s hardest environmental puzzles.",
+            "Reach the transition point to The Organism.",
           ]}
           puzzles={
             <>
-              Power-routing and signal-alignment puzzles are common here.
-              You may need to restore generators, align antennas, or repair control panels.
+              Expect the game&apos;s most complex environmental puzzles in this chapter, possibly including the cage lock and code door referenced by players.
+              Exact solutions are being verified against walkthrough footage.
             </>
           }
           dangerAreas={[
-            "Exposed exterior or catwalk sections with limited cover.",
-            "Control rooms with alarm sounds that attract the entity.",
-            "Long corridors between tower sections with no safe rooms.",
+            "William Blake&apos;s Hideout and the surrounding experiment rooms.",
+            "Areas with the Venus Hand Trap and big-hand enemies.",
+            "Timed or multi-step puzzles that leave you exposed.",
           ]}
           collectibles={[
-            "Radio logs or signal transcripts.",
-            "Documents about the facility surface lockdown.",
+            "Toy Carousel tied to Round and round we go.",
+            "Son&apos;s family drawing tied to In good hands.",
+            "Worn Football tied to A great team!",
           ]}
           tips={[
-            "Plan your route before flipping switches; some actions make noise.",
-            "Use the tower layout to create distance from the entity.",
-            "Save after each major puzzle checkpoint.",
+            "Check every side room before entering The Organism; several collectibles are missable.",
+            "Use the shotgun against groups of minions but watch ammo.",
+            "Save before the final transition point.",
           ]}
         />
 
         <ChapterSection
           id="chapter-5"
           number={5}
-          title="Sub Level"
-          estimatedTime="60-90 min"
-          difficulty="Very High"
-          missable
-          overview={
-            <>
-              Sub Level takes you deeper into the underground facilities.
-              This is typically the largest chapter, with multi-step machinery puzzles, backtracking, and the most aggressive entity behavior.
-            </>
-          }
-          objectives={[
-            "Descend into the underground facility levels.",
-            "Solve multi-step machinery and power puzzles.",
-            "Backtrack across previously opened areas with new tools.",
-            "Reach the final elevator or transition to Oblivion.",
-          ]}
-          puzzles={
-            <>
-              The hardest puzzles in the game appear here: machinery activation, timed sequences, and key item combinations across multiple rooms.
-              Take notes or use the in-game journal if available.
-            </>
-          }
-          dangerAreas={[
-            "Large machinery rooms with limited hiding spots.",
-            "Timed puzzle sections where the entity may interrupt.",
-            "Backtracking paths that become more dangerous after story events.",
-          ]}
-          collectibles={[
-            "Underground facility documents and experiment notes.",
-            "Final missable key items for the true ending.",
-            "Supplies hidden behind optional side puzzles.",
-          ]}
-          tips={[
-            "Open shortcuts as early as possible to reduce future backtracking risk.",
-            "Save before every major puzzle sequence.",
-            "If an area is too dangerous, look for an alternate route or wait for the patrol to pass.",
-          ]}
-        />
-
-        <ChapterSection
-          id="chapter-6"
-          number={6}
-          title="Oblivion"
-          estimatedTime="30-50 min"
+          title="The Organism"
+          estimatedTime="15-25 min"
           difficulty="High"
           missable
           overview={
             <>
-              Oblivion is the final chapter. Your choices, exploration, and collectible progress converge here to determine which ending you receive.
-              Save before the final sequence if you want to see multiple outcomes.
+              The Organism is the final chapter, running from approximately 4:09:41 to 4:28:54 in DanQ8000&apos;s playthrough.
+              It contains the game&apos;s conclusion, final encounter, and ending sequence. Any remaining achievements are usually unlocked here or just before the credits.
             </>
           }
           objectives={[
             "Reach the final area of the underground facility.",
-            "Complete the final puzzle sequence.",
-            "Make the ending-determining choice or action.",
+            "Complete the final puzzle or environmental sequence.",
+            "Survive the final encounter and make ending-determining choices.",
             "Watch the ending and return to the main menu.",
           ]}
           puzzles={
             <>
-              The final puzzle usually ties together clues from all previous chapters.
-              Missing a document or key item may lock you out of the best ending.
+              The final sequence may include an environmental escape, such as the rising liquid segment seen in walkthrough footage.
+              Exact steps are being verified.
             </>
           }
           dangerAreas={[
@@ -482,7 +425,7 @@ export default function WalkthroughPage() {
             </a>
             <a href="/story" className="block p-6 bg-surface-container-low border border-white/5 hover:border-primary/30 transition-colors">
               <div className="text-[10px] uppercase tracking-widest font-label text-primary mb-2">Story</div>
-              <div className="text-foreground font-headline-sm mb-1">Story & Lore Breakdown</div>
+              <div className="text-foreground font-headline-sm mb-1">Story &amp; Lore Breakdown</div>
               <div className="text-sm text-on-surface-variant">Characters, setting, and the dark mystery behind the hospital.</div>
             </a>
           </div>
@@ -494,9 +437,8 @@ export default function WalkthroughPage() {
         />
 
         <Notice variant="warning" title="Detailed steps coming soon" titleAs="h3">
-          We are playing through each chapter to verify exact room names, item locations, and puzzle solutions.
-          The chapter structure above is based on the official Steam description and community-reported sources; it has not been officially confirmed by the developer.
-          Room-by-room steps will be added as we complete our own verification.
+          We are verifying exact room names, item locations, and puzzle solutions against full-game walkthrough footage.
+          The chapter structure above is based on chapter markers from DanQ8000&apos;s community walkthrough.
         </Notice>
       </ArticleTemplate>
     </>

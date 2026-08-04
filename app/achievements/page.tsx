@@ -107,10 +107,10 @@ const achievements = {
     { name: "What's in the hole?", description: "Reach inside a hole in the wall.", global: "39.9%", missable: false, condition: "Interact with a hole in the wall." },
   ],
   hidden: [
-    { name: "What is he made of?!", description: "Hidden achievement description.", global: "42.5%", missable: "unknown" as const, condition: "Unknown -- description hidden by Steam." },
-    { name: "Forgiveness", description: "Hidden achievement description.", global: "40.5%", missable: "unknown" as const, condition: "Unknown -- description hidden by Steam." },
-    { name: "Rest in Pieces", description: "Hidden achievement description.", global: "39.4%", missable: "unknown" as const, condition: "Unknown -- description hidden by Steam." },
-    { name: "Early Grave", description: "Hidden achievement description.", global: "5.8%", missable: "unknown" as const, condition: "Unknown -- description hidden by Steam. Rare (5.8%), likely tied to a specific ending or hidden challenge." },
+    { name: "What is he made of?!", description: "Hidden achievement description.", global: "42.5%", missable: "unknown" as const, condition: "Unknown -- description hidden by Steam. The name suggests it may involve William Blake's hand-regeneration experiment or discovering a transformed enemy." },
+    { name: "Forgiveness", description: "Hidden achievement description.", global: "40.5%", missable: "unknown" as const, condition: "Unknown -- description hidden by Steam. The name suggests a story moment related to Sam and the protagonist's guilt." },
+    { name: "Rest in Pieces", description: "Hidden achievement description.", global: "39.4%", missable: "unknown" as const, condition: "Unknown -- description hidden by Steam. The name suggests defeating or destroying a major enemy, possibly the Sam entity." },
+    { name: "Early Grave", description: "Hidden achievement description.", global: "5.8%", missable: "unknown" as const, condition: "Unknown -- description hidden by Steam. Very rare (5.8%). May be tied to a specific death, hidden challenge, or optional ending condition." },
   ],
 };
 
