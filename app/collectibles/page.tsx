@@ -110,6 +110,10 @@ export default function CollectiblesPage() {
       faq={faq}
       related={related}
       verification="community"
+      heroImage={{
+        src: "/images/heroes/collectibles.jpg",
+        alt: "It Reaches gameplay: Toy Police Car collectible in the Memory Area",
+      }}
     >
       <section id="quick-answer" className="mb-12 scroll-mt-24">
         <QuickAnswer title="Quick Answer" as="h2">

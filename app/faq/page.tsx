@@ -154,6 +154,10 @@ export default function FAQPage() {
       faq={faq}
       related={related}
       verification="verified"
+      heroImage={{
+        src: "/images/heroes/faq.jpg",
+        alt: "It Reaches gameplay: the Mutant encounter in the Basement maintenance area",
+      }}
     >
       <section id="quick-answer" className="mb-12 scroll-mt-24">
         <QuickAnswer title="Quick Answer" as="h2">

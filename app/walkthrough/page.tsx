@@ -139,6 +139,10 @@ export default function WalkthroughPage() {
       faq={faq}
       related={related}
       verification="community"
+      heroImage={{
+        src: "/images/heroes/walkthrough.jpg",
+        alt: "It Reaches gameplay: hospital hallway on the first floor",
+      }}
     >
       <HowToSchema
         title="It Reaches Walkthrough"

@@ -114,6 +114,10 @@ export default function AchievementsPage() {
       faq={faq}
       related={related}
       verification="verified"
+      heroImage={{
+        src: "/images/heroes/achievements.jpg",
+        alt: "It Reaches gameplay: shotgun pickup room in The Sewer Hideout",
+      }}
     >
       <section id="quick-answer" className="mb-12 scroll-mt-24">
         <QuickAnswer title="Quick Answer" as="h2">
