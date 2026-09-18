@@ -13,10 +13,11 @@ export function Footer() {
             <nav className="flex flex-wrap items-center gap-x-4 gap-y-1">
               {[
                 { label: "Home", href: "/" },
-                { label: "Guides", href: "/guides" },
+                { label: "Puzzles", href: "/puzzles" },
+                { label: "Achievements", href: "/achievements" },
+                { label: "Collectibles", href: "/collectibles" },
                 { label: "Walkthrough", href: "/walkthrough" },
-                { label: "Characters", href: "/characters/jason-thompson" },
-                { label: "Items", href: "/items" },
+                { label: "Endings", href: "/endings" },
                 { label: "FAQ", href: "/faq" },
                 { label: "Disclaimer", href: "/disclaimer" },
                 { label: "Privacy", href: "/privacy" },

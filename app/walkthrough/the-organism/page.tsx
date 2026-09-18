@@ -19,11 +19,11 @@ const article: Article = {
   description: "The Organism final chapter walkthrough for It Reaches: conclusion, final encounter, ending sequence, and DanQ8000 timestamps.",
   href: "https://itreachesguide.com/walkthrough/the-organism",
   publishedDate: "2026-07-30",
-  updatedDate: "2026-07-31",
+  updatedDate: "2026-09-08",
   author: "It Reaches Guide Team",
   readingTime: "4 min",
   difficulty: "High",
-  lastReviewed: "2026-07-31",
+  lastReviewed: "2026-09-08",
   sources: [
     "Steam store page for It Reaches (App ID 4119360)",
     "DanQ8000 full gameplay walkthrough chapter timestamps",
@@ -89,6 +89,7 @@ export default function TheOrganismPage() {
       toc={toc}
       faq={[]}
       related={related}
+      verification="community"
     >
       <section id="quick-answer" className="mb-12 scroll-mt-24">
         <QuickAnswer title="Quick Answer" as="h2">
@@ -117,7 +118,10 @@ export default function TheOrganismPage() {
         ]}
         puzzles={
           <>
-            The final chapter may contain one or more concluding puzzles. Based on player reports and achievement data, this is where the rare Early Grave achievement and other hidden triggers likely occur.
+            The final chapter contains an environmental escape sequence (the rising
+            liquid segment visible in walkthrough footage). The rare Early Grave
+            achievement and other hidden triggers are associated with this part of
+            the game, but their exact conditions are unverified.
           </>
         }
         dangerAreas={[
@@ -158,9 +162,8 @@ export default function TheOrganismPage() {
         sources={article.sources}
       />
 
-      <Notice variant="warning" title="Detailed steps coming soon" titleAs="h3">
-        We are verifying the final encounter, ending triggers, and any hidden achievement conditions against full-game walkthrough footage.
-        The chapter structure above is based on official chapter markers from community walkthroughs.
+      <Notice variant="warning" title="Evidence note" titleAs="h3">
+        Chapter boundaries follow chapter markers in DanQ8000&apos;s full-game walkthrough (community source, not officially confirmed). Hidden achievement conditions and ending triggers are not verified and are not guessed.
       </Notice>
     </ArticleTemplate>
   );

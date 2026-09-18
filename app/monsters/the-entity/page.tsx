@@ -7,7 +7,7 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "The Entity - It Reaches Monster Survival Guide",
-  description: "Survival guide for the entity in It Reaches: official behavior, evasion tactics, body camera tips, and what is still being verified.",
+  description: "Survival guide for the entity in It Reaches: what the official Steam description confirms, safe evasion tactics, and body camera tips.",
   alternates: {
     canonical: "https://itreachesguide.com/monsters/the-entity",
   },
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 
 const article: Article = {
   title: "The Entity - It Reaches Monster Survival Guide",
-  description: "A focused survival guide for the entity in It Reaches. Covers what the official Steam description confirms, safe general tactics, and what will be added after direct playthrough verification.",
+  description: "A focused survival guide for the entity in It Reaches. Covers what the official Steam description confirms and safe general tactics.",
   href: "https://itreachesguide.com/monsters/the-entity",
   publishedDate: "2026-07-30",
   updatedDate: "2026-07-30",
@@ -98,7 +98,7 @@ export default function TheEntityMonsterPage() {
         <ul className="space-y-4 text-on-surface-variant leading-relaxed list-disc list-inside">
           <li><strong>Relentless:</strong> The entity is described as something that never stops pursuing you.</li>
           <li><strong>Merciless:</strong> It feels no mercy, implying direct confrontation is not the intended solution.</li>
-          <li><strong>Singular threat:</strong> Only one enemy type has been confirmed from official sources. Additional monsters, if any, will be added after verification.</li>
+          <li><strong>Singular confirmed threat:</strong> Only one enemy type has been confirmed from official sources. If additional monster types are verified, this page will be updated.</li>
         </ul>
       </section>
 
@@ -135,11 +135,11 @@ export default function TheEntityMonsterPage() {
           </div>
           <div>
             <h3 className="font-headline-sm text-foreground mb-2">Does light attract it?</h3>
-            <p>Specific sensitivity to light or sound has not been confirmed. We are testing these triggers and will update this page with verified behavior.</p>
+            <p>Specific sensitivity to light or sound has not been confirmed. We do not publish unverified behavior claims.</p>
           </div>
           <div>
             <h3 className="font-headline-sm text-foreground mb-2">Are there multiple enemy types?</h3>
-            <p>Only one enemy has been confirmed from the official Steam description. We will not add additional monster pages until they are verified in the full release.</p>
+            <p>Only one enemy has been confirmed from the official Steam description. Additional monster pages will only appear after verification.</p>
           </div>
         </div>
       </section>
@@ -149,9 +149,8 @@ export default function TheEntityMonsterPage() {
         sources={article.sources}
       />
 
-      <Notice variant="warning" title="Entity details being verified" titleAs="h3">
-        We are actively playing through It Reaches to confirm patrol routes, audio cues, hiding spots, and visual triggers for the entity.
-        This page provides safe, general survival guidance based on the official Steam description. Specific mechanics will be added as they are verified.
+      <Notice variant="warning" title="Entity behavior details unverified" titleAs="h3">
+        Patrol routes, audio cues, hiding spots, and visual triggers are not officially documented. This page provides general survival guidance based on the official Steam description only.
       </Notice>
     </ArticleTemplate>
   );

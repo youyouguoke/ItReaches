@@ -178,7 +178,7 @@ export default function StoryPage() {
       </section>
 
       <Notice variant="info" title="Lore based on verified footage" titleAs="h3">
-        The family tragedy and William Blake experiment details are derived from transcribed gameplay footage. The exact chapter order and full ending context are still being verified.
+        The family tragedy and William Blake experiment details are derived from transcribed gameplay footage (community-reported, single source). The full ending context is not verified.
       </Notice>
     </ArticleTemplate>
   );

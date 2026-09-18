@@ -32,7 +32,7 @@ export interface SiteConfig {
     heroBackground: string;
   };
   trust: {
-    verifiedLabel: string;
+    verifiedLabel?: string;
     lastReviewed: string;
     version: string;
     coverage: string[];

@@ -19,11 +19,11 @@ const article: Article = {
   description: "The Sewer chapter walkthrough for It Reaches: objectives, multi-step puzzles, the first family collectibles, DanQ8000 timestamps, and tips.",
   href: "https://itreachesguide.com/walkthrough/the-sewer",
   publishedDate: "2026-07-30",
-  updatedDate: "2026-07-31",
+  updatedDate: "2026-09-08",
   author: "It Reaches Guide Team",
   readingTime: "6 min",
   difficulty: "High",
-  lastReviewed: "2026-07-31",
+  lastReviewed: "2026-09-08",
   sources: [
     "Steam store page for It Reaches (App ID 4119360)",
     "DanQ8000 full gameplay walkthrough chapter timestamps",
@@ -66,11 +66,11 @@ const related = [
     tag: "Walkthrough",
   },
   {
-    title: "Items & Collectibles",
-    description: "Where to find every family collectible in It Reaches.",
+    title: "Collectibles",
+    description: "Which chapter each of the five family collectibles is in.",
     image: "/images/story.webp",
-    href: "/items",
-    tag: "Items",
+    href: "/collectibles",
+    tag: "Collectibles",
   },
   {
     title: "Achievements",
@@ -89,6 +89,7 @@ export default function TheSewerPage() {
       toc={toc}
       faq={[]}
       related={related}
+      verification="community"
     >
       <section id="quick-answer" className="mb-12 scroll-mt-24">
         <QuickAnswer title="Quick Answer" as="h2">
@@ -119,7 +120,7 @@ export default function TheSewerPage() {
         puzzles={
           <>
             The Sewer introduces harder environmental puzzles: valve routing, power restoration, and possibly the first code locks.
-            Exact solutions are being verified against walkthrough footage.
+            Exact solutions are published on the puzzle pages once verified against footage.
           </>
         }
         dangerAreas={[
@@ -149,10 +150,10 @@ export default function TheSewerPage() {
             <div className="text-foreground font-headline-sm mb-1">The Sewer Hideout</div>
             <div className="text-sm text-on-surface-variant">William Blake&apos;s Hideout and the Science and History achievement.</div>
           </a>
-          <a href="/items" className="block p-6 bg-surface-container-low border border-white/5 hover:border-primary/30 transition-colors">
+          <a href="/collectibles" className="block p-6 bg-surface-container-low border border-white/5 hover:border-primary/30 transition-colors">
             <div className="text-[10px] uppercase tracking-widest font-label text-primary mb-2">Collectibles</div>
-            <div className="text-foreground font-headline-sm mb-1">Items & Collectibles</div>
-            <div className="text-sm text-on-surface-variant">All five family collectibles and their video timestamps.</div>
+            <div className="text-foreground font-headline-sm mb-1">Collectibles</div>
+            <div className="text-sm text-on-surface-variant">All five family collectibles and which chapter each is in.</div>
           </a>
         </div>
       </section>
@@ -162,9 +163,8 @@ export default function TheSewerPage() {
         sources={article.sources}
       />
 
-      <Notice variant="warning" title="Detailed steps coming soon" titleAs="h3">
-        We are verifying exact collectible placements, puzzle solutions, and safe routes against full-game walkthrough footage.
-        The chapter structure above is based on official chapter markers from community walkthroughs.
+      <Notice variant="warning" title="Evidence note" titleAs="h3">
+        Chapter boundaries follow chapter markers in DanQ8000&apos;s full-game walkthrough (community source, not officially confirmed). Collectible routes and puzzle solutions are published only after verification.
       </Notice>
     </ArticleTemplate>
   );

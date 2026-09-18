@@ -86,7 +86,7 @@ export default function AbandonedHospitalPage() {
     >
       <section id="quick-answer" className="mb-12 scroll-mt-24">
         <QuickAnswer title="Quick Answer" as="h2">
-          It Reaches takes place in an abandoned hospital and its underground facilities. The official Steam description presents the location as a claustrophobic, decaying space where officer Jason Thompson must uncover a dark mystery while something hunts him. Exact room names, map layout, and facility history are being verified.
+          It Reaches takes place in an abandoned hospital and its underground facilities. The official Steam description presents the location as a claustrophobic, decaying space where officer Jason Thompson must uncover a dark mystery while something hunts him. Exact room names, map layout, and facility history are not officially documented.
         </QuickAnswer>
       </section>
 
@@ -106,7 +106,7 @@ export default function AbandonedHospitalPage() {
         <ul className="space-y-4 text-on-surface-variant leading-relaxed list-disc list-inside">
           <li><strong>Decay and abandonment:</strong> The environment emphasizes neglect, with damaged walls, scattered debris, and failing lights.</li>
           <li><strong>Claustrophobic corridors:</strong> Tight hallways and limited sightlines reinforce the body camera perspective.</li>
-          <li><strong>Environmental storytelling:</strong> Documents, signs, and object placement are expected to reveal what happened in the facility.</li>
+          <li><strong>Environmental storytelling:</strong> Documents, signs, and object placement reveal what happened in the facility.</li>
         </ul>
       </section>
 
@@ -124,7 +124,7 @@ export default function AbandonedHospitalPage() {
           Underground Facilities
         </h2>
         <p className="text-on-surface-variant mb-6 leading-relaxed">
-          The official description explicitly mentions underground facilities beneath the hospital. These deeper areas likely host the later chapters, harder puzzles, and the darkest parts of the mystery. Specific rooms, machinery, and lore details will be added after verification.
+          The official description explicitly mentions underground facilities beneath the hospital. Walkthrough footage shows the later chapters taking place in these deeper areas. Specific rooms and lore details beyond the footage are unverified.
         </p>
       </section>
 
@@ -133,8 +133,8 @@ export default function AbandonedHospitalPage() {
         sources={article.sources}
       />
 
-      <Notice variant="warning" title="Setting details being verified" titleAs="h3">
-        This page reflects the official Steam description of the setting. Specific map details, room names, facility history, and environmental lore will be added once verified through direct playthrough.
+      <Notice variant="warning" title="Setting details unverified" titleAs="h3">
+        This page reflects the official Steam description of the setting. Specific map details, room names, and facility history beyond walkthrough footage are unverified.
       </Notice>
     </ArticleTemplate>
   );

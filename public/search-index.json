@@ -1,239 +1,640 @@
 [
   {
-    "title": "Complete Walkthrough",
-    "description": "Step-by-step guidance through all six chapters, from Awakening to Oblivion.",
-    "href": "/walkthrough",
-    "tag": "Walkthrough Guides",
-    "keywords": [
-      "walkthrough",
-      "Walkthrough Guides",
-      "map",
-      "6 Chapters",
-      "Objectives",
-      "Puzzles",
-      "Collectibles"
-    ]
-  },
-  {
-    "title": "Awakening Walkthrough",
-    "description": "Chapter 1: tutorial, body camera basics, and the opening hospital area.",
-    "href": "/walkthrough/awakening",
-    "tag": "Walkthrough Guides",
-    "keywords": [
-      "awakening",
-      "Walkthrough Guides",
-      "map",
-      "Chapter 1",
-      "Tutorial",
-      "Introductory Puzzles"
-    ]
-  },
-  {
-    "title": "Ventilation Walkthrough",
-    "description": "Chapter 2: maintenance tunnels, stealth, and environmental puzzles.",
-    "href": "/walkthrough/ventilation",
-    "tag": "Walkthrough Guides",
-    "keywords": [
-      "ventilation",
-      "Walkthrough Guides",
-      "map",
-      "Chapter 2",
-      "Stealth",
-      "Vents"
-    ]
-  },
-  {
-    "title": "The Reach Walkthrough",
-    "description": "Chapter 3: open hospital wings, multi-step puzzles, and first missables.",
-    "href": "/walkthrough/the-reach",
-    "tag": "Walkthrough Guides",
-    "keywords": [
-      "the-reach",
-      "Walkthrough Guides",
-      "map",
-      "Chapter 3",
-      "Multi-step Puzzles",
-      "Missables"
-    ]
-  },
-  {
-    "title": "Comm Tower Walkthrough",
-    "description": "Chapter 4: power and signal puzzles between tower sections.",
-    "href": "/walkthrough/comm-tower",
-    "tag": "Walkthrough Guides",
-    "keywords": [
-      "comm-tower",
-      "Walkthrough Guides",
-      "map",
-      "Chapter 4",
-      "Power Routing",
-      "Signals"
-    ]
-  },
-  {
-    "title": "Sub Level Walkthrough",
-    "description": "Chapter 5: underground machinery puzzles and the most aggressive entity behavior.",
-    "href": "/walkthrough/sub-level",
-    "tag": "Walkthrough Guides",
-    "keywords": [
-      "sub-level",
-      "Walkthrough Guides",
-      "map",
-      "Chapter 5",
-      "Machinery",
-      "Backtracking"
-    ]
-  },
-  {
-    "title": "Oblivion Walkthrough",
-    "description": "Chapter 6: final puzzle, ending-determining choices, and conclusion.",
-    "href": "/walkthrough/oblivion",
-    "tag": "Walkthrough Guides",
-    "keywords": [
-      "oblivion",
-      "Walkthrough Guides",
-      "map",
-      "Chapter 6",
-      "Final Puzzle",
-      "Endings"
-    ]
-  },
-  {
-    "title": "Puzzle Guide",
-    "description": "Puzzle-solving strategies and frameworks for keypad, environmental, and machinery puzzles. Specific codes will be added as they are verified.",
+    "title": "Puzzles & Codes",
+    "description": "One page per puzzle: what it is, where it is, and the solution once verified. Unverified codes are never published.",
     "href": "/puzzles",
-    "tag": "Puzzle Guides",
+    "tag": "Get Unstuck",
     "keywords": [
       "puzzles",
-      "Puzzle Guides",
+      "Get Unstuck",
       "puzzle",
-      "Keypad Codes",
-      "Environmental Logic",
-      "Underground Mechanisms"
-    ]
-  },
-  {
-    "title": "Endings Guide",
-    "description": "A speculative framework for the likely ending types based on the Steam narrative. Official names and exact triggers are being verified.",
-    "href": "/endings",
-    "tag": "Story Guides",
-    "keywords": [
-      "endings",
-      "Story Guides",
-      "trophy",
-      "Survival-Focused",
-      "Lore-Heavy",
-      "Secret / Optional"
-    ]
-  },
-  {
-    "title": "Story & Lore",
-    "description": "Characters, timeline, documents, and the mystery behind the abandoned hospital.",
-    "href": "/story",
-    "tag": "Story Guides",
-    "keywords": [
-      "story",
-      "Story Guides",
-      "book",
-      "Characters",
-      "Timeline",
-      "Lore Documents"
-    ]
-  },
-  {
-    "title": "Characters",
-    "description": "Detailed character and setting guides: Jason Thompson, the Entity, and the Abandoned Hospital.",
-    "href": "/characters/jason-thompson",
-    "tag": "Story Guides",
-    "keywords": [
-      "characters",
-      "Story Guides",
-      "book",
-      "Jason Thompson",
-      "The Entity",
-      "Setting"
-    ]
-  },
-  {
-    "title": "Monster Guide",
-    "description": "Survival strategies for the entity hunting officer Jason Thompson. Additional enemies and detailed behaviors are being mapped in the full release.",
-    "href": "/monsters",
-    "tag": "Survival Guides",
-    "keywords": [
-      "monsters",
-      "Survival Guides",
-      "skull",
-      "1 Entity Overview",
-      "Behavior",
-      "Tactics"
-    ]
-  },
-  {
-    "title": "The Entity Survival Guide",
-    "description": "Focused survival guide for the only confirmed enemy in It Reaches.",
-    "href": "/monsters/the-entity",
-    "tag": "Survival Guides",
-    "keywords": [
-      "monster-entity",
-      "Survival Guides",
-      "skull",
-      "Behavior",
-      "Tactics",
-      "Body Camera"
-    ]
-  },
-  {
-    "title": "Items & Collectibles",
-    "description": "System-level guide to documents, key items, supplies, and missable collectibles in It Reaches.",
-    "href": "/items",
-    "tag": "Completion Guides",
-    "keywords": [
-      "items",
-      "Completion Guides",
-      "book",
-      "Documents",
-      "Key Items",
-      "Missables"
+      "Key Retrieval",
+      "Cage Lock Code",
+      "Code Door"
     ]
   },
   {
     "title": "Achievements",
-    "description": "Framework for unlocking every trophy and achievement. Exact conditions are being verified against the full release.",
+    "description": "All 20 Steam achievements: official names, descriptions, global unlock rates, missable warnings, and per-achievement detail pages.",
     "href": "/achievements",
-    "tag": "Completion Guides",
+    "tag": "Get Unstuck",
     "keywords": [
       "achievements",
-      "Completion Guides",
+      "Get Unstuck",
       "award",
       "20 Achievements",
       "Missable Warnings",
-      "Unlock Conditions"
+      "Global %"
+    ]
+  },
+  {
+    "title": "Collectibles",
+    "description": "The five family collectibles: which chapter, where to look, and which achievement each one unlocks.",
+    "href": "/collectibles",
+    "tag": "Get Unstuck",
+    "keywords": [
+      "collectibles",
+      "Get Unstuck",
+      "book",
+      "Toy Police Car",
+      "Toy Carousel",
+      "Worn Football"
+    ]
+  },
+  {
+    "title": "Walkthrough",
+    "description": "Chapter-by-chapter progression for the five chapters seen in full-game walkthrough footage, with objectives, missables, and next-step links.",
+    "href": "/walkthrough",
+    "tag": "Progression",
+    "keywords": [
+      "walkthrough",
+      "Progression",
+      "map",
+      "5 Chapters",
+      "Objectives",
+      "Missables"
+    ]
+  },
+  {
+    "title": "Chapter 1: The Hospital",
+    "description": "Opening chapter: body camera basics, the hospital interior, and the Trespassing achievement.",
+    "href": "/walkthrough/the-hospital",
+    "tag": "Progression",
+    "keywords": [
+      "the-hospital",
+      "Progression",
+      "map",
+      "Chapter 1",
+      "Intro",
+      "Documents"
+    ]
+  },
+  {
+    "title": "Chapter 2: The Basement",
+    "description": "Escape the prison, recover your pistol, and survive the first enemies.",
+    "href": "/walkthrough/the-basement",
+    "tag": "Progression",
+    "keywords": [
+      "the-basement",
+      "Progression",
+      "map",
+      "Chapter 2",
+      "Escape Artist",
+      "Happy Reunion"
+    ]
+  },
+  {
+    "title": "Chapter 3: The Sewer",
+    "description": "Flooded tunnels, valve and power puzzles, the shotgun, and two family collectibles.",
+    "href": "/walkthrough/the-sewer",
+    "tag": "Progression",
+    "keywords": [
+      "the-sewer",
+      "Progression",
+      "map",
+      "Chapter 3",
+      "Armed and Ready",
+      "Toy Police Car"
+    ]
+  },
+  {
+    "title": "Chapter 4: The Sewer Hideout",
+    "description": "William Blake's hideout, the remaining three family collectibles, and the hardest puzzles.",
+    "href": "/walkthrough/the-sewer-hideout",
+    "tag": "Progression",
+    "keywords": [
+      "the-sewer-hideout",
+      "Progression",
+      "map",
+      "Chapter 4",
+      "Science and History",
+      "3 Collectibles"
+    ]
+  },
+  {
+    "title": "Chapter 5: The Organism",
+    "description": "The final chapter: the last encounter, ending sequence, and remaining achievements.",
+    "href": "/walkthrough/the-organism",
+    "tag": "Progression",
+    "keywords": [
+      "the-organism",
+      "Progression",
+      "map",
+      "Chapter 5",
+      "Final Encounter",
+      "Endings"
+    ]
+  },
+  {
+    "title": "Endings",
+    "description": "What is actually known about the endings — and what is still unverified. No invented ending names.",
+    "href": "/endings",
+    "tag": "Progression",
+    "keywords": [
+      "endings",
+      "Progression",
+      "trophy",
+      "Verified Info",
+      "Unverified Marked"
     ]
   },
   {
     "title": "FAQ",
-    "description": "Consolidated answers to the most common questions about It Reaches.",
+    "description": "Short answers to the questions players actually search: chapters, achievements, missables, saves.",
     "href": "/faq",
     "tag": "Reference",
     "keywords": [
       "faq",
       "Reference",
       "book",
-      "Basics",
-      "Gameplay",
-      "Story",
-      "Achievements"
+      "Chapters",
+      "Achievements",
+      "Saves"
+    ]
+  },
+  {
+    "title": "Cage Lock Code (Basement Prison) - Puzzle Solution",
+    "description": "Read the three clues around your cage: the paper figure has eight arms (Triangle = 8), your cage is number five (Square = 5), and the paper in cage six shows a circle over the number 2 (O = 2). Enter O=2, Square=5, Triangle=8.",
+    "href": "/puzzles/cage-lock-code",
+    "tag": "Puzzle",
+    "keywords": [
+      "cage-lock-code",
+      "Cage Lock Code (Basement Prison)",
+      "puzzle",
+      "code",
+      "solution",
+      "The Basement"
+    ]
+  },
+  {
+    "title": "Electrical Room Door Key (Basement) - Puzzle Solution",
+    "description": "The Electrical door is locked until you grab the Key from the workbench down the long corridor. A Mutant appears as soon as you take it — hide in the nearby locker, hold your breath when prompted, then unlock the door.",
+    "href": "/puzzles/electrical-room-key",
+    "tag": "Puzzle",
+    "keywords": [
+      "electrical-room-key",
+      "Electrical Room Door Key (Basement)",
+      "puzzle",
+      "code",
+      "solution",
+      "The Basement"
+    ]
+  },
+  {
+    "title": "Sewer 4-Digit Door Code - Puzzle Solution",
+    "description": "The full code is 5861. The first half (58**) is written behind a shelf in the maintenance area; the second half (**61) is on the wall near the second red cyst.",
+    "href": "/puzzles/sewer-door-code",
+    "tag": "Puzzle",
+    "keywords": [
+      "sewer-door-code",
+      "Sewer 4-Digit Door Code",
+      "puzzle",
+      "code",
+      "solution",
+      "The Sewer"
+    ]
+  },
+  {
+    "title": "Half-Pipe Alignment (Sewer Lower Service Channel) - Puzzle Solution",
+    "description": "Connect every half-pipe so the exploding balls roll unimpeded to the fingers in the water area. Pull both railing switches first, then press the four buttons in this order: 1st, 4th, 1st, 3rd.",
+    "href": "/puzzles/half-pipe-puzzle",
+    "tag": "Puzzle",
+    "keywords": [
+      "half-pipe-puzzle",
+      "Half-Pipe Alignment (Sewer Lower Service Channel)",
+      "puzzle",
+      "code",
+      "solution",
+      "The Sewer"
+    ]
+  },
+  {
+    "title": "Valve Drainage (Sewer Hideout) - Puzzle Solution",
+    "description": "Rotate each valve set so the metal pipes face the directions shown: Set 1 (2 valves): left ×2 down, right ×1 left. Set 2 (3 valves): left ×1 up, middle untouched, right ×1 left. Set 3 (4 valves): ×1 up, ×2 down, ×1 down, ×2 left. Set 4 (2 valves, tunnel): left ×1 down, right ×1 left. A sound confirms each correct set.",
+    "href": "/puzzles/valve-drainage",
+    "tag": "Puzzle",
+    "keywords": [
+      "valve-drainage",
+      "Valve Drainage (Sewer Hideout)",
+      "puzzle",
+      "code",
+      "solution",
+      "The Sewer Hideout"
+    ]
+  },
+  {
+    "title": "Machine Room Door Code (Sewer Hideout) - Puzzle Solution",
+    "description": "The full door code is 3752. A concrete fragment beside the door shows one hinted digit with three blank spaces; the complete code opens the machine room, where the Toy Carousel waits inside a wall reach.",
+    "href": "/puzzles/machine-room-code",
+    "tag": "Puzzle",
+    "keywords": [
+      "machine-room-code",
+      "Machine Room Door Code (Sewer Hideout)",
+      "puzzle",
+      "code",
+      "solution",
+      "The Sewer Hideout"
+    ]
+  },
+  {
+    "title": "Venus Hand Traps - Puzzle Solution",
+    "description": "Venus Hand Traps are the hands along floors and water that grab and hold you. Tap the prompted button to break free, toss a stone to make them retreat, or shoot one (before it grabs you) for the Handshot achievement.",
+    "href": "/puzzles/venus-hand-traps",
+    "tag": "Puzzle",
+    "keywords": [
+      "venus-hand-traps",
+      "Venus Hand Traps",
+      "puzzle",
+      "code",
+      "solution",
+      "The Sewer Hideout"
+    ]
+  },
+  {
+    "title": "Red Blister Finger Gates (The Organism) - Puzzle Solution",
+    "description": "Finger clusters block the way. Shoot the glowing red blister on the nearby wall to make the fingers retract and open the path.",
+    "href": "/puzzles/red-blister-gates",
+    "tag": "Puzzle",
+    "keywords": [
+      "red-blister-gates",
+      "Red Blister Finger Gates (The Organism)",
+      "puzzle",
+      "code",
+      "solution",
+      "The Organism"
+    ]
+  },
+  {
+    "title": "Trespassing Achievement",
+    "description": "How to unlock: Story — enter the hospital building in Chapter 1 (The Hospital). Unmissable. (79.8% of players)",
+    "href": "/achievements/trespassing",
+    "tag": "Achievement",
+    "keywords": [
+      "trespassing",
+      "Trespassing",
+      "achievement",
+      "unlock",
+      "trophy",
+      "The Hospital"
+    ]
+  },
+  {
+    "title": "Escape Artist Achievement",
+    "description": "How to unlock: Story — escape the basement prison area at the end of the Basement chapter. Unmissable. (52.3% of players)",
+    "href": "/achievements/escape-artist",
+    "tag": "Achievement",
+    "keywords": [
+      "escape-artist",
+      "Escape Artist",
+      "achievement",
+      "unlock",
+      "trophy",
+      "The Basement"
+    ]
+  },
+  {
+    "title": "Happy Reunion Achievement",
+    "description": "How to unlock: Story — retrieve your pistol during the Basement chapter. Unmissable. (48.7% of players)",
+    "href": "/achievements/happy-reunion",
+    "tag": "Achievement",
+    "keywords": [
+      "happy-reunion",
+      "Happy Reunion",
+      "achievement",
+      "unlock",
+      "trophy",
+      "The Basement"
+    ]
+  },
+  {
+    "title": "Science and History Achievement",
+    "description": "How to unlock: Story — complete the Sewer chapter (rescue Sam from the burning police car). Unmissable. (31.2% of players)",
+    "href": "/achievements/science-and-history",
+    "tag": "Achievement",
+    "keywords": [
+      "science-and-history",
+      "Science and History",
+      "achievement",
+      "unlock",
+      "trophy",
+      "The Sewer"
+    ]
+  },
+  {
+    "title": "Armed and Ready Achievement",
+    "description": "How to unlock: Pick up the shotgun on the table in the Sewer maintenance area (the room with the Proof of Purchase note). (28.4% of players)",
+    "href": "/achievements/armed-and-ready",
+    "tag": "Achievement",
+    "keywords": [
+      "armed-and-ready",
+      "Armed and Ready",
+      "achievement",
+      "unlock",
+      "trophy",
+      "The Sewer"
+    ]
+  },
+  {
+    "title": "Sharp Senses Achievement",
+    "description": "How to unlock: Let a Minion grab you (first ones appear in the Basement), then press the prompted button to kill it with your knife. Saves ammo. (34.1% of players)",
+    "href": "/achievements/sharp-senses",
+    "tag": "Achievement",
+    "keywords": [
+      "sharp-senses",
+      "Sharp Senses",
+      "achievement",
+      "unlock",
+      "trophy",
+      "The Basement"
+    ]
+  },
+  {
+    "title": "First Upgrade Achievement",
+    "description": "How to unlock: Spend an Upgrade Bolt at any workbench. Bolts are found on crates and dropped by glowing cysts. (26.7% of players)",
+    "href": "/achievements/first-upgrade",
+    "tag": "Achievement",
+    "keywords": [
+      "first-upgrade",
+      "First Upgrade",
+      "achievement",
+      "unlock",
+      "trophy",
+      "Any chapter (workbench)"
+    ]
+  },
+  {
+    "title": "Handshot Achievement",
+    "description": "How to unlock: Shoot a Venus Hand Trap (the hands along the floor that grab and hold you). First ones appear in the Sewer Hideout drainage pool area. (41.2% of players)",
+    "href": "/achievements/handshot",
+    "tag": "Achievement",
+    "keywords": [
+      "handshot",
+      "Handshot",
+      "achievement",
+      "unlock",
+      "trophy",
+      "The Sewer Hideout"
+    ]
+  },
+  {
+    "title": "Fully Upgraded Achievement",
+    "description": "How to unlock: Fully upgrade one weapon at workbenches using Upgrade Bolts. Tip: only spend bolts on the handgun. Note: an early patch fixed this not triggering — if that happened to you, revisit a workbench and activate every upgrade (scroll the list). (3.7% of players)",
+    "href": "/achievements/fully-upgraded",
+    "tag": "Achievement",
+    "keywords": [
+      "fully-upgraded",
+      "Fully Upgraded",
+      "achievement",
+      "unlock",
+      "trophy",
+      "Any chapter (workbench)"
+    ]
+  },
+  {
+    "title": "Touchy Subject Achievement",
+    "description": "How to unlock: Walk up to a big hand in the Sewer and let it kill you. It is happy to oblige. You restart at the area's checkpoint. (18.9% of players)",
+    "href": "/achievements/touchy-subject",
+    "tag": "Achievement",
+    "keywords": [
+      "touchy-subject",
+      "Touchy Subject",
+      "achievement",
+      "unlock",
+      "trophy",
+      "The Sewer"
+    ]
+  },
+  {
+    "title": "What's in the Hole? Achievement",
+    "description": "How to unlock: Reach inside a fleshy hole in a wall. The first one is in the Sewer's 5861 code-door room (it holds the son's family drawing), so this comes naturally while collecting. (44.5% of players)",
+    "href": "/achievements/whats-in-the-hole",
+    "tag": "Achievement",
+    "keywords": [
+      "whats-in-the-hole",
+      "What's in the Hole?",
+      "achievement",
+      "unlock",
+      "trophy",
+      "The Sewer"
+    ]
+  },
+  {
+    "title": "\"Bring your child to work\" - Day Achievement",
+    "description": "How to unlock: Reach inside the fleshy wall in the dark corridor right of the desk with the Guilt note (Sewer Hideout, after the disappearing-bridge section). (22.7% of players)",
+    "href": "/achievements/bring-your-child-to-work-day",
+    "tag": "Achievement",
+    "keywords": [
+      "bring-your-child-to-work-day",
+      "\"Bring your child to work\" - Day",
+      "achievement",
+      "unlock",
+      "trophy",
+      "The Sewer Hideout"
+    ]
+  },
+  {
+    "title": "Fetch! Achievement",
+    "description": "How to unlock: In the Sewer Hideout flooded lower area, lure the hands in the water away with stones, cross to the far side, and reach inside the wall. (19.4% of players)",
+    "href": "/achievements/fetch",
+    "tag": "Achievement",
+    "keywords": [
+      "fetch",
+      "Fetch!",
+      "achievement",
+      "unlock",
+      "trophy",
+      "The Sewer Hideout"
+    ]
+  },
+  {
+    "title": "Round and round we go. Achievement",
+    "description": "How to unlock: Found in the Sewer Hideout playground/sandbox area while working through the platform-switch sequence. (17.6% of players)",
+    "href": "/achievements/round-and-round-we-go",
+    "tag": "Achievement",
+    "keywords": [
+      "round-and-round-we-go",
+      "Round and round we go.",
+      "achievement",
+      "unlock",
+      "trophy",
+      "The Sewer Hideout"
+    ]
+  },
+  {
+    "title": "In good hands. Achievement",
+    "description": "How to unlock: Inside the Sewer's 5861 code-door room: interact with the fleshy wall to reach inside and pull it out. (21.3% of players)",
+    "href": "/achievements/in-good-hands",
+    "tag": "Achievement",
+    "keywords": [
+      "in-good-hands",
+      "In good hands.",
+      "achievement",
+      "unlock",
+      "trophy",
+      "The Sewer"
+    ]
+  },
+  {
+    "title": "A great team! Achievement",
+    "description": "How to unlock: In the Sewer half-pipe area, drop into the water, open the back-wall door, pull the switch to open the pipe cover, then reach inside the wall. (18.7% of players)",
+    "href": "/achievements/a-great-team",
+    "tag": "Achievement",
+    "keywords": [
+      "a-great-team",
+      "A great team!",
+      "achievement",
+      "unlock",
+      "trophy",
+      "The Sewer"
+    ]
+  },
+  {
+    "title": "What is he made of?! Achievement",
+    "description": "How to unlock: Once you have the handgun in the Basement's experiment area, shoot William Blake. It does nothing — but you get the achievement. (15.2% of players)",
+    "href": "/achievements/what-is-he-made-of",
+    "tag": "Achievement",
+    "keywords": [
+      "what-is-he-made-of",
+      "What is he made of?!",
+      "achievement",
+      "unlock",
+      "trophy",
+      "The Basement"
+    ]
+  },
+  {
+    "title": "Forgiveness Achievement",
+    "description": "How to unlock: Finish the final chapter (The Organism). Unmissable if you complete the story. (24.8% of players)",
+    "href": "/achievements/forgiveness",
+    "tag": "Achievement",
+    "keywords": [
+      "forgiveness",
+      "Forgiveness",
+      "achievement",
+      "unlock",
+      "trophy",
+      "The Organism"
+    ]
+  },
+  {
+    "title": "Rest in Pieces Achievement",
+    "description": "How to unlock: In The Organism's explosives area, damage the Cage Monster with gunfire but make the FINAL hit a red explosive barrel. Shooting a barrel stuns it — with a strong shotgun you can burst it down between stuns. (8.3% of players)",
+    "href": "/achievements/rest-in-pieces",
+    "tag": "Achievement",
+    "keywords": [
+      "rest-in-pieces",
+      "Rest in Pieces",
+      "achievement",
+      "unlock",
+      "trophy",
+      "The Organism"
+    ]
+  },
+  {
+    "title": "Early Grave Achievement",
+    "description": "How to unlock: In the Sewer Hideout steam pipe area, when the Cage Monster busts through the door, kill it with gunfire. This fight happens before the chapter's end. (5.8% of players)",
+    "href": "/achievements/early-grave",
+    "tag": "Achievement",
+    "keywords": [
+      "early-grave",
+      "Early Grave",
+      "achievement",
+      "unlock",
+      "trophy",
+      "The Sewer Hideout"
+    ]
+  },
+  {
+    "title": "Toy Police Car - Collectible Location",
+    "description": "Where to find the Toy Police Car: The Sewer Hideout. After crossing the vanishing bridge, enter the next room and check the desk with the Guilt note. Step into the dark corridor beside it and reach inside the fleshy wall on the right.",
+    "href": "/collectibles/toy-police-car",
+    "tag": "Collectible",
+    "keywords": [
+      "toy-police-car",
+      "Toy Police Car",
+      "collectible",
+      "item",
+      "location",
+      "The Sewer Hideout"
+    ]
+  },
+  {
+    "title": "Photograph of the Family Dog - Collectible Location",
+    "description": "Where to find the Photograph of the Family Dog: The Sewer Hideout. In the waist-deep water area, toss stones to lure the hands away from each crate before jumping. Reach the far side below the catwalk, enter the small room (two stones sit left of its door), and reach inside the wall.",
+    "href": "/collectibles/family-dog-photograph",
+    "tag": "Collectible",
+    "keywords": [
+      "family-dog-photograph",
+      "Photograph of the Family Dog",
+      "collectible",
+      "item",
+      "location",
+      "The Sewer Hideout"
+    ]
+  },
+  {
+    "title": "Toy Carousel - Collectible Location",
+    "description": "Where to find the Toy Carousel: The Sewer Hideout. In the loud machine room, take the right catwalk to the coded door. The hint on the concrete fragment gives you 3752. Open the door and reach inside the hole in the wall.",
+    "href": "/collectibles/toy-carousel",
+    "tag": "Collectible",
+    "keywords": [
+      "toy-carousel",
+      "Toy Carousel",
+      "collectible",
+      "item",
+      "location",
+      "The Sewer Hideout"
+    ]
+  },
+  {
+    "title": "Son's Family Drawing - Collectible Location",
+    "description": "Where to find the Son's Family Drawing: The Sewer. Find both code halves (58** behind the shelf, **61 by the second cyst), enter 5861 on the keycode door, then interact with the fleshy wall inside and reach in.",
+    "href": "/collectibles/sons-family-drawing",
+    "tag": "Collectible",
+    "keywords": [
+      "sons-family-drawing",
+      "Son's Family Drawing",
+      "collectible",
+      "item",
+      "location",
+      "The Sewer"
+    ]
+  },
+  {
+    "title": "Worn Football - Collectible Location",
+    "description": "Where to find the Worn Football: The Sewer. Drop into the water in the half-pipe area, open the door along the back wall, grab the Upgrade Bolt, pull the switch to open the pipe cover, then reach inside the wall.",
+    "href": "/collectibles/worn-football",
+    "tag": "Collectible",
+    "keywords": [
+      "worn-football",
+      "Worn Football",
+      "collectible",
+      "item",
+      "location",
+      "The Sewer"
     ]
   },
   {
     "title": "It Reaches Guide Home",
-    "description": "Complete walkthrough, puzzle solutions, endings, monster survival tips, and lore for It Reaches.",
+    "description": "Stuck in It Reaches? Find the exact puzzle solution, achievement unlock condition, or collectible location.",
     "href": "/",
     "tag": "Home",
     "keywords": [
       "home",
       "index",
-      "overview"
+      "overview",
+      "stuck",
+      "get unstuck"
+    ]
+  },
+  {
+    "title": "Search",
+    "description": "Search every puzzle, achievement, collectible, and walkthrough page.",
+    "href": "/search",
+    "tag": "Reference",
+    "keywords": [
+      "search",
+      "find"
     ]
   },
   {

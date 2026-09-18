@@ -24,12 +24,11 @@ game:
   achievements: 20 Steam Achievements
   heroBackground: /images/hero.webp
 trust:
-  verifiedLabel: Verified Guide
-  lastReviewed: July 29, 2026
+  lastReviewed: September 8, 2026
   version: Steam Launch Version
   coverage:
-    - Complete Walkthrough
-    - Every Puzzle
-    - All Endings
-    - Monster Survival Guide
+    - Walkthrough by chapter
+    - Puzzles & codes
+    - Achievements
+    - Collectibles
 ---

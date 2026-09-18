@@ -2,13 +2,12 @@ import Link from "next/link";
 import { Container } from "./Container";
 
 const navItems = [
-  { label: "Walkthrough", href: "/walkthrough" },
-  { label: "Guides", href: "/guides" },
   { label: "Puzzles", href: "/puzzles" },
+  { label: "Achievements", href: "/achievements" },
+  { label: "Collectibles", href: "/collectibles" },
+  { label: "Walkthrough", href: "/walkthrough" },
   { label: "Endings", href: "/endings" },
-  { label: "Monsters", href: "/monsters" },
-  { label: "Story", href: "/story" },
-  { label: "Tips", href: "/tips" },
+  { label: "FAQ", href: "/faq" },
 ];
 
 export function Header() {

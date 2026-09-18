@@ -83,9 +83,14 @@ export function Hero({
                 <div className="flex items-center gap-2 text-primary">
                   <ShieldCheck size={18} />
                   <span className="font-label text-label-caps uppercase tracking-widest">
-                    {trust.verifiedLabel || "Verified Guide"}
+                    Evidence-based guide
                   </span>
                 </div>
+                <p className="text-xs text-on-surface-variant leading-relaxed">
+                  Every claim is labeled by evidence level: Verified, Community
+                  reported, or Unverified. We do not publish guessed codes,
+                  locations, or unlock conditions.
+                </p>
                 {trust.coverage && (
                   <ul className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                     {trust.coverage.map((item) => (

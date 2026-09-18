@@ -104,7 +104,7 @@ export default function JasonThompsonPage() {
           Background
         </h2>
         <p className="text-on-surface-variant mb-6 leading-relaxed">
-          The official Steam store page identifies Jason Thompson as a police officer. It does not confirm his rank, department, or backstory beyond the setup of the game: a routine operation that escalates into a nightmare. Additional background details may appear in documents or audio logs inside the game and will be added to this page once verified.
+          The official Steam store page identifies Jason Thompson as a police officer. It does not confirm his rank, department, or backstory beyond the setup of the game: a routine operation that escalates into a nightmare. Additional background from in-game documents is not yet transcribed.
         </p>
       </section>
 
@@ -114,7 +114,7 @@ export default function JasonThompsonPage() {
         </h2>
         <ul className="space-y-4 text-on-surface-variant leading-relaxed list-disc list-inside">
           <li><strong>Body camera perspective:</strong> The camera is attached to Jason, limiting peripheral vision and creating a realistic, claustrophobic view of the hospital.</li>
-          <li><strong>Realistic movement:</strong> As an officer rather than a soldier, Jason is unlikely to have heavy weapons or advanced gear. Avoidance, hiding, and resource management are more important than direct confrontation.</li>
+          <li><strong>Realistic movement:</strong> As an officer rather than a soldier, Jason has no heavy weapons. Avoidance, hiding, and resource management matter more than direct confrontation.</li>
           <li><strong>Professional instincts:</strong> His role suggests he would investigate rooms methodically, collect evidence, and read documents -- behaviors that align with the game&apos;s exploration and collectible systems.</li>
         </ul>
       </section>
@@ -142,8 +142,8 @@ export default function JasonThompsonPage() {
         sources={article.sources}
       />
 
-      <Notice variant="warning" title="Character details being verified" titleAs="h3">
-        This page is based on the official Steam description and confirmed protagonist name. Additional dialogue, backstory, and in-game documents will be added once we complete our own playthrough and can verify them against the source.
+      <Notice variant="warning" title="Character details unverified" titleAs="h3">
+        This page is based on the official Steam description and the confirmed protagonist name. In-game documents and dialogue are not yet transcribed.
       </Notice>
     </ArticleTemplate>
   );

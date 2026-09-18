@@ -55,7 +55,7 @@ export function SearchClient() {
           type="text"
           value={query}
           onChange={(e) => setQuery(e.target.value)}
-          placeholder="Search walkthroughs, characters, puzzles, items..."
+          placeholder="Search puzzles, achievements, collectibles, chapters..."
           className="w-full bg-surface border border-white/10 pl-12 pr-12 py-4 text-foreground placeholder:text-on-surface-variant/50 focus:border-primary focus:outline-none"
           autoFocus
         />
@@ -76,7 +76,7 @@ export function SearchClient() {
         <div className="p-6 bg-surface-container-low border border-white/5">
           <p className="text-foreground font-headline-sm mb-2">No results found for &quot;{query}&quot;.</p>
           <p className="text-on-surface-variant">
-            Try searching for: walkthrough, puzzle, ending, achievement, Jason Thompson, entity, items, or a chapter name like Awakening.
+            Try searching for: cage code, 5861, shotgun, Venus Hand Trap, Worn Football, or a chapter like Sewer Hideout.
           </p>
         </div>
       )}
@@ -144,10 +144,14 @@ function iconForTag(tag: string): string {
     "Story Guides": "book",
     "Survival Guides": "skull",
     "Completion Guides": "trophy",
-    "Tips": "brain",
-    "Reference": "book",
-    "Home": "book",
-    "Legal": "book",
+    Puzzle: "puzzle",
+    Achievement: "trophy",
+    Collectible: "star",
+    Guides: "book",
+    Tips: "brain",
+    Reference: "book",
+    Home: "book",
+    Legal: "book",
   };
   return map[tag] || "book";
 }

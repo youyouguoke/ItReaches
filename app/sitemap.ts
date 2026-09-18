@@ -1,36 +1,40 @@
 import { MetadataRoute } from "next";
+import { chapters, achievements, puzzles, collectibles } from "@/lib/game-data";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://itreachesguide.com";
-  const routes = [
+  const today = new Date();
+
+  const staticRoutes = [
     "",
-    "/walkthrough",
-    "/walkthrough/awakening",
-    "/walkthrough/ventilation",
-    "/walkthrough/the-reach",
-    "/walkthrough/comm-tower",
-    "/walkthrough/sub-level",
-    "/walkthrough/oblivion",
     "/puzzles",
-    "/endings",
-    "/monsters",
-    "/monsters/the-entity",
     "/achievements",
-    "/story",
-    "/characters/jason-thompson",
-    "/characters/the-entity",
-    "/characters/abandoned-hospital",
-    "/items",
-    "/tips",
+    "/collectibles",
+    "/walkthrough",
+    "/endings",
     "/faq",
+    "/guides",
     "/privacy",
     "/terms",
     "/disclaimer",
   ];
 
-  return routes.map((route) => ({
+  const chapterRoutes = chapters.map((c) => `/walkthrough/${c.slug}`);
+  const puzzleRoutes = puzzles.map((p) => `/puzzles/${p.slug}`);
+  const achievementRoutes = achievements.map((a) => `/achievements/${a.slug}`);
+  const collectibleRoutes = collectibles.map((c) => `/collectibles/${c.slug}`);
+
+  const all = [
+    ...staticRoutes,
+    ...chapterRoutes,
+    ...puzzleRoutes,
+    ...achievementRoutes,
+    ...collectibleRoutes,
+  ];
+
+  return all.map((route) => ({
     url: `${baseUrl}${route}`,
-    lastModified: new Date(),
+    lastModified: today,
     changeFrequency: "weekly",
     priority: route === "" ? 1 : 0.8,
   }));

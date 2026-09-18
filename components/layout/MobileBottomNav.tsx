@@ -7,9 +7,9 @@ import { useState } from "react";
 
 const bottomNavItems = [
   { label: "Home", href: "/", icon: Home },
-  { label: "Guides", href: "/guides", icon: BookOpen },
   { label: "Puzzles", href: "/puzzles", icon: Puzzle },
-  { label: "Endings", href: "/endings", icon: Trophy },
+  { label: "Achievements", href: "/achievements", icon: Trophy },
+  { label: "Walkthrough", href: "/walkthrough", icon: BookOpen },
 ];
 
 export function MobileBottomNav() {
@@ -66,14 +66,11 @@ export function MobileBottomNav() {
             <div className="flex flex-col gap-6">
               {[
                 { label: "Home", href: "/" },
-                { label: "Walkthrough", href: "/walkthrough" },
-                { label: "Guides", href: "/guides" },
                 { label: "Puzzles", href: "/puzzles" },
-                { label: "Endings", href: "/endings" },
-                { label: "Monsters", href: "/monsters" },
-                { label: "Story", href: "/story" },
                 { label: "Achievements", href: "/achievements" },
-                { label: "Tips", href: "/tips" },
+                { label: "Collectibles", href: "/collectibles" },
+                { label: "Walkthrough", href: "/walkthrough" },
+                { label: "Endings", href: "/endings" },
                 { label: "FAQ", href: "/faq" },
                 { label: "Search", href: "/search" },
               ].map((item) => (

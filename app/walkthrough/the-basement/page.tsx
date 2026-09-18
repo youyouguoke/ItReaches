@@ -19,11 +19,11 @@ const article: Article = {
   description: "The Basement chapter walkthrough for It Reaches: prison escape, pistol recovery, first enemy encounters, DanQ8000 timestamps, and tips.",
   href: "https://itreachesguide.com/walkthrough/the-basement",
   publishedDate: "2026-07-30",
-  updatedDate: "2026-07-31",
+  updatedDate: "2026-09-08",
   author: "It Reaches Guide Team",
   readingTime: "5 min",
   difficulty: "Medium",
-  lastReviewed: "2026-07-31",
+  lastReviewed: "2026-09-08",
   sources: [
     "Steam store page for It Reaches (App ID 4119360)",
     "DanQ8000 full gameplay walkthrough chapter timestamps",
@@ -88,6 +88,7 @@ export default function TheBasementPage() {
       toc={toc}
       faq={[]}
       related={related}
+      verification="community"
     >
       <section id="quick-answer" className="mb-12 scroll-mt-24">
         <QuickAnswer title="Quick Answer" as="h2">
@@ -158,9 +159,8 @@ export default function TheBasementPage() {
         sources={article.sources}
       />
 
-      <Notice variant="warning" title="Detailed steps coming soon" titleAs="h3">
-        We are verifying exact room names, enemy placements, and item locations against full-game walkthrough footage.
-        The chapter structure above is based on official chapter markers from community walkthroughs.
+      <Notice variant="warning" title="Evidence note" titleAs="h3">
+        Chapter boundaries follow chapter markers in DanQ8000&apos;s full-game walkthrough (community source, not officially confirmed). Exact room names and enemy placements are published only after verification.
       </Notice>
     </ArticleTemplate>
   );

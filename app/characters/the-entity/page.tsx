@@ -86,7 +86,7 @@ export default function TheEntityCharacterPage() {
     >
       <section id="quick-answer" className="mb-12 scroll-mt-24">
         <QuickAnswer title="Quick Answer" as="h2">
-          The entity is the antagonist of It Reaches. The official Steam description describes it as something that &quot;never stops&quot; and &quot;feels no mercy.&quot; It hunts officer Jason Thompson through the abandoned hospital and its underground facilities. Its exact origin, appearance, and mechanics are being verified in the full release.
+          The entity is the antagonist of It Reaches. The official Steam description describes it as something that &quot;never stops&quot; and &quot;feels no mercy.&quot; It hunts officer Jason Thompson through the abandoned hospital and its underground facilities. Its exact origin and mechanics are not officially documented.
         </QuickAnswer>
       </section>
 
@@ -105,8 +105,8 @@ export default function TheEntityCharacterPage() {
         </h2>
         <ul className="space-y-4 text-on-surface-variant leading-relaxed list-disc list-inside">
           <li><strong>Relentless pursuit:</strong> The entity does not appear to tire, forcing the player to keep moving and avoid predictable hiding patterns.</li>
-          <li><strong>Reactive hunter:</strong> Based on the body camera horror genre, it likely responds to sound, light, and player movement.</li>
-          <li><strong>Persistent presence:</strong> Rather than scripted jump scares alone, the entity may patrol set routes and create long tension sequences.</li>
+          <li><strong>Reactive hunter:</strong> Walkthrough footage shows it pursuing the player; specific senses (sound, light) are unverified.</li>
+          <li><strong>Persistent presence:</strong> Footage shows long tension sequences and pursuits across multiple rooms.</li>
         </ul>
       </section>
 
@@ -124,7 +124,7 @@ export default function TheEntityCharacterPage() {
           Survival Implications
         </h2>
         <ul className="space-y-4 text-on-surface-variant leading-relaxed list-disc list-inside">
-          <li>Direct confrontation is unlikely to be the intended solution.</li>
+          <li>Direct confrontation is not the intended solution per the official description (&quot;feels no mercy&quot;).</li>
           <li>Stealth, line-of-sight breaking, and noise management are the safest approaches.</li>
           <li>Understanding patrol timing and safe rooms is more valuable than running blindly.</li>
         </ul>
@@ -135,9 +135,9 @@ export default function TheEntityCharacterPage() {
         sources={article.sources}
       />
 
-      <Notice variant="warning" title="Entity details being verified" titleAs="h3">
+      <Notice variant="warning" title="Entity details unverified" titleAs="h3">
         This page is based on the official Steam description and confirmed protagonist encounter setup.
-        In-game model details, patrol behavior, audio cues, and exact origin will be added once verified through direct playthrough.
+        In-game model details, patrol behavior, and exact origin are not officially documented.
       </Notice>
     </ArticleTemplate>
   );

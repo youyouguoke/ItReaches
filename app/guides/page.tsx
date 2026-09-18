@@ -21,9 +21,9 @@ import { Map, Puzzle, Trophy, Skull, BookOpen, Award } from "lucide-react";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Guides | It Reaches Guide - Complete Game Documentation",
+  title: "Guides | It Reaches Guide",
   description:
-    "Browse every guide for It Reaches: walkthroughs, puzzle solutions, endings, monster strategies, story lore, and achievements. Updated for the Steam launch version.",
+    "Every It Reaches guide in one place: puzzles, achievements, collectibles, walkthrough, and endings — each claim labeled by evidence level.",
   alternates: {
     canonical: "https://itreachesguide.com/guides",
   },
@@ -78,27 +78,26 @@ export default async function GuidesPage() {
 
       <Hero
         title="Guides"
-        subtitle="Every guide for It Reaches in one place: complete walkthroughs, puzzle solutions, endings, monster strategies, story lore, and achievement tracking."
+        subtitle="Every guide for It Reaches in one place: puzzles, achievements, collectibles, the chapter walkthrough, and endings. Each claim is labeled Verified, Community reported, or Unverified."
         background="/images/hero.webp"
         features={[
-          "Walkthrough",
           "Puzzles",
-          "Endings",
-          "Monsters",
-          "Story",
           "Achievements",
+          "Collectibles",
+          "Walkthrough",
+          "Endings",
+          "FAQ",
         ]}
-        primaryCta={{ label: "Start Walkthrough", href: "/walkthrough" }}
-        secondaryCta={{ label: "Beginner Tips", href: "/tips" }}
+        primaryCta={{ label: "Browse Puzzles", href: "/puzzles" }}
+        secondaryCta={{ label: "Chapter Walkthrough", href: "/walkthrough" }}
         trust={{
-          verifiedLabel: "Verified Guide Hub",
           coverage: [
-            "Complete Walkthrough",
-            "Every Puzzle",
-            "All Endings",
-            "Monster Survival",
-            "Lore Analysis",
-            "100% Achievements",
+            "Puzzles & codes",
+            "All 20 achievements",
+            "5 collectibles",
+            "5-chapter walkthrough",
+            "Ending status",
+            "Evidence-labeled claims",
           ],
           lastReviewed: updated,
           version: "Steam Launch Version",
@@ -117,7 +116,7 @@ export default async function GuidesPage() {
               What will you find here?
             </h2>
             <p className="font-body text-body-lg text-on-surface-variant leading-relaxed mb-6">
-              This guide hub contains every major guide for It Reaches, including walkthroughs, puzzle solutions, endings, monster strategies, story explanations, and achievement guides. Start with the <Link href="/walkthrough" className="text-primary hover:underline">Complete Walkthrough</Link> if this is your first playthrough, or use the <Link href="/tips" className="text-primary hover:underline">Beginner Guide</Link> to learn the body camera mechanics first.
+              Stuck somewhere? Start with the <Link href="/puzzles" className="text-primary hover:underline">Puzzles & Codes</Link> hub if you need a specific solution, check <Link href="/achievements" className="text-primary hover:underline">Achievements</Link> for unlock conditions and missable warnings, or use the <Link href="/walkthrough" className="text-primary hover:underline">Walkthrough</Link> to figure out where you are and what to do next.
             </p>
           </div>
         </Container>
@@ -183,8 +182,8 @@ export default async function GuidesPage() {
         lastReviewed={updated}
         sources={[
           "Steam store page for It Reaches (App ID 4119360)",
-          "Official descriptions of protagonist Jason Thompson and bodycam perspective",
-          "Community-reported chapter structure from the It Reaches player hub",
+          "Steam Community global achievement statistics",
+          "DanQ8000 full gameplay walkthrough (chapter structure)",
         ]}
       />
     </>

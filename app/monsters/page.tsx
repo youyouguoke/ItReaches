@@ -89,6 +89,7 @@ export default function MonstersPage() {
       toc={toc}
       faq={faq}
       related={related}
+      verification="community"
     >
       <section id="overview" className="mb-12">
         <QuickAnswer title="Quick Answer" as="h2">
@@ -108,7 +109,7 @@ export default function MonstersPage() {
           />
           <div className="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-background/90 to-transparent">
             <p className="text-xs text-on-surface-variant/80">
-              Artist interpretation based on the official Steam description. In-game screenshots and model details will be added after verification.
+              Artist interpretation based on the official Steam description. In-game screenshots and model details are not yet available.
             </p>
           </div>
         </div>
@@ -116,7 +117,7 @@ export default function MonstersPage() {
           Entity Behavior
         </h2>
         <p className="text-on-surface-variant mb-6 leading-relaxed">
-          The official Steam description states the entity never stops and feels no mercy. It likely patrols set routes, reacts to sound and light, and can pursue you across multiple rooms. We are mapping patrol routes and trigger zones in the full release.
+          The official Steam description confirms the entity never stops and feels no mercy. Walkthrough footage shows it pursuing the player across rooms; specific patrol routes, senses, and trigger zones are not officially documented.
         </p>
       </section>
 
@@ -147,8 +148,8 @@ export default function MonstersPage() {
         <p className="text-on-surface-variant mb-6 leading-relaxed">
           The body camera limits your field of view and can make it harder to spot the entity in peripheral areas. Use the camera angle deliberately: sweep rooms before entering, and avoid tunnel vision during chase sequences.
         </p>
-        <Notice variant="warning" title="Entity details being verified" titleAs="h3">
-          We are actively playing the full release to confirm patrol routes, audio cues, and safe hiding spots. This page provides safe, general survival guidance based on the official Steam description and the body camera mechanics.
+        <Notice variant="warning" title="Entity behavior details unverified" titleAs="h3">
+          Patrol routes, audio cues, and safe hiding spots are not officially documented. This page provides only general survival guidance grounded in the official Steam description and body camera mechanics.
         </Notice>
       </section>
     </ArticleTemplate>

@@ -32,11 +32,11 @@ const label = localFont({
 
 export const metadata: Metadata = {
   title: {
-    default: "It Reaches Guide | Complete Horror Game Documentation",
+    default: "It Reaches Guide - Stuck? Find the Exact Solution",
     template: "%s | It Reaches Guide",
   },
   description:
-    "Complete walkthrough, puzzle solutions, endings, monster guide, and lore analysis for It Reaches.",
+    "Stuck in It Reaches? Find the exact puzzle solution, achievement unlock condition, or collectible location. Every claim labeled by evidence level.",
   metadataBase: new URL("https://itreachesguide.com"),
   openGraph: {
     type: "website",

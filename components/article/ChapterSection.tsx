@@ -132,12 +132,12 @@ export function ChapterSection({
         </>
       )}
 
-      <Notice variant="warning" title="Chapter Summary" titleAs="h3">
+      <Notice variant="warning" title="Evidence Note" titleAs="h3">
         <p className="mb-2">
           <strong>Chapter {number}: {title}</strong> -- estimated {estimatedTime || "varies"}, difficulty {difficulty || "varies"}.
         </p>
         <p>
-          Focus on {objectives[0]}. Detailed room-by-room steps are being verified against the full release and will be added as soon as possible.
+          Chapter boundaries are based on chapter markers visible in community walkthrough footage (single source, not officially confirmed). We do not publish unverified room names, codes, or exact steps.
         </p>
       </Notice>
 

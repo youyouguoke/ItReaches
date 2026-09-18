@@ -17,6 +17,7 @@ interface ArticleTemplateProps {
   faq: FAQItem[];
   related: Guide[];
   children: React.ReactNode;
+  verification?: "verified" | "community" | "unverified";
 }
 
 export function ArticleTemplate({
@@ -26,6 +27,7 @@ export function ArticleTemplate({
   faq,
   related,
   children,
+  verification = "unverified",
 }: ArticleTemplateProps) {
   return (
     <>
@@ -48,11 +50,14 @@ export function ArticleTemplate({
                 readingTime={article.readingTime}
                 difficulty={article.difficulty}
                 author={article.author}
-                verified
+                verification={verification}
                 status={article.status}
               />
 
-              <TrustBlock lastReviewed={article.lastReviewed || article.updatedDate || article.publishedDate} />
+              <TrustBlock
+                lastReviewed={article.lastReviewed || article.updatedDate || article.publishedDate}
+                verification={verification}
+              />
 
               {children}
             </article>

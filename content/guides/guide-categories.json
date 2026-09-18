@@ -1,289 +1,201 @@
 {
-  "updated": "Jul 30, 2026",
+  "updated": "Sep 8, 2026",
   "stats": [
-    { "label": "Chapters", "value": "6" },
-    { "label": "Puzzle Types", "value": "3" },
-    { "label": "Monster Overview", "value": "1" },
-    { "label": "Steam Achievements", "value": "20" }
+    { "label": "Chapters", "value": "5" },
+    { "label": "Puzzle Guides", "value": "6" },
+    { "label": "Steam Achievements", "value": "20" },
+    { "label": "Collectibles", "value": "5" }
   ],
   "categories": [
     {
-      "slug": "walkthrough",
-      "title": "Complete Walkthrough",
-      "description": "Step-by-step guidance through all six chapters, from Awakening to Oblivion.",
-      "image": "/images/walkthrough.webp",
-      "href": "/walkthrough",
-      "iconName": "map",
-      "readingTime": "15 min",
-      "updated": "Jul 30, 2026",
-      "difficulty": "Medium",
-      "coverage": ["6 Chapters", "Objectives", "Puzzles", "Collectibles"],
-      "order": 1,
-      "category": "Walkthrough Guides"
-    },
-    {
-      "slug": "awakening",
-      "title": "Awakening Walkthrough",
-      "description": "Chapter 1: tutorial, body camera basics, and the opening hospital area.",
-      "image": "/images/walkthrough.webp",
-      "href": "/walkthrough/awakening",
-      "iconName": "map",
-      "readingTime": "4 min",
-      "updated": "Jul 30, 2026",
-      "difficulty": "Low",
-      "coverage": ["Chapter 1", "Tutorial", "Introductory Puzzles"],
-      "order": 2,
-      "category": "Walkthrough Guides"
-    },
-    {
-      "slug": "ventilation",
-      "title": "Ventilation Walkthrough",
-      "description": "Chapter 2: maintenance tunnels, stealth, and environmental puzzles.",
-      "image": "/images/walkthrough.webp",
-      "href": "/walkthrough/ventilation",
-      "iconName": "map",
-      "readingTime": "5 min",
-      "updated": "Jul 30, 2026",
-      "difficulty": "Medium",
-      "coverage": ["Chapter 2", "Stealth", "Vents"],
-      "order": 3,
-      "category": "Walkthrough Guides"
-    },
-    {
-      "slug": "the-reach",
-      "title": "The Reach Walkthrough",
-      "description": "Chapter 3: open hospital wings, multi-step puzzles, and first missables.",
-      "image": "/images/walkthrough.webp",
-      "href": "/walkthrough/the-reach",
-      "iconName": "map",
-      "readingTime": "6 min",
-      "updated": "Jul 30, 2026",
-      "difficulty": "High",
-      "coverage": ["Chapter 3", "Multi-step Puzzles", "Missables"],
-      "order": 4,
-      "category": "Walkthrough Guides"
-    },
-    {
-      "slug": "comm-tower",
-      "title": "Comm Tower Walkthrough",
-      "description": "Chapter 4: power and signal puzzles between tower sections.",
-      "image": "/images/walkthrough.webp",
-      "href": "/walkthrough/comm-tower",
-      "iconName": "map",
-      "readingTime": "5 min",
-      "updated": "Jul 30, 2026",
-      "difficulty": "Medium",
-      "coverage": ["Chapter 4", "Power Routing", "Signals"],
-      "order": 5,
-      "category": "Walkthrough Guides"
-    },
-    {
-      "slug": "sub-level",
-      "title": "Sub Level Walkthrough",
-      "description": "Chapter 5: underground machinery puzzles and the most aggressive entity behavior.",
-      "image": "/images/walkthrough.webp",
-      "href": "/walkthrough/sub-level",
-      "iconName": "map",
-      "readingTime": "7 min",
-      "updated": "Jul 30, 2026",
-      "difficulty": "Very High",
-      "coverage": ["Chapter 5", "Machinery", "Backtracking"],
-      "order": 6,
-      "category": "Walkthrough Guides"
-    },
-    {
-      "slug": "oblivion",
-      "title": "Oblivion Walkthrough",
-      "description": "Chapter 6: final puzzle, ending-determining choices, and conclusion.",
-      "image": "/images/walkthrough.webp",
-      "href": "/walkthrough/oblivion",
-      "iconName": "map",
-      "readingTime": "5 min",
-      "updated": "Jul 30, 2026",
-      "difficulty": "High",
-      "coverage": ["Chapter 6", "Final Puzzle", "Endings"],
-      "order": 7,
-      "category": "Walkthrough Guides"
-    },
-    {
       "slug": "puzzles",
-      "title": "Puzzle Guide",
-      "description": "Puzzle-solving strategies and frameworks for keypad, environmental, and machinery puzzles. Specific codes will be added as they are verified.",
+      "title": "Puzzles & Codes",
+      "description": "One page per puzzle: what it is, where it is, and the solution once verified. Unverified codes are never published.",
       "image": "/images/puzzle.webp",
       "href": "/puzzles",
       "iconName": "puzzle",
-      "readingTime": "12 min",
-      "updated": "Jul 30, 2026",
+      "readingTime": "6 guides",
+      "updated": "Sep 8, 2026",
       "difficulty": "Mixed",
-      "coverage": ["Keypad Codes", "Environmental Logic", "Underground Mechanisms"],
-      "order": 8,
-      "category": "Puzzle Guides"
-    },
-    {
-      "slug": "endings",
-      "title": "Endings Guide",
-      "description": "A speculative framework for the likely ending types based on the Steam narrative. Official names and exact triggers are being verified.",
-      "image": "/images/endings.webp",
-      "href": "/endings",
-      "iconName": "trophy",
-      "readingTime": "8 min",
-      "updated": "Jul 30, 2026",
-      "difficulty": "Normal",
-      "coverage": ["Survival-Focused", "Lore-Heavy", "Secret / Optional"],
-      "badge": "Speculative",
-      "order": 9,
-      "category": "Story Guides"
-    },
-    {
-      "slug": "story",
-      "title": "Story & Lore",
-      "description": "Characters, timeline, documents, and the mystery behind the abandoned hospital.",
-      "image": "/images/story.webp",
-      "href": "/story",
-      "iconName": "book",
-      "readingTime": "12 min",
-      "updated": "Jul 30, 2026",
-      "difficulty": "Easy",
-      "coverage": ["Characters", "Timeline", "Lore Documents"],
-      "order": 10,
-      "category": "Story Guides"
-    },
-    {
-      "slug": "characters",
-      "title": "Characters",
-      "description": "Detailed character and setting guides: Jason Thompson, the Entity, and the Abandoned Hospital.",
-      "image": "/images/lore.webp",
-      "href": "/characters/jason-thompson",
-      "iconName": "book",
-      "readingTime": "12 min",
-      "updated": "Jul 30, 2026",
-      "difficulty": "Easy",
-      "coverage": ["Jason Thompson", "The Entity", "Setting"],
-      "order": 11,
-      "category": "Story Guides"
-    },
-    {
-      "slug": "monsters",
-      "title": "Monster Guide",
-      "description": "Survival strategies for the entity hunting officer Jason Thompson. Additional enemies and detailed behaviors are being mapped in the full release.",
-      "image": "/images/monster.webp",
-      "href": "/monsters",
-      "iconName": "skull",
-      "readingTime": "10 min",
-      "updated": "Jul 30, 2026",
-      "difficulty": "Hard",
-      "coverage": ["1 Entity Overview", "Behavior", "Tactics"],
-      "badge": "In Progress",
-      "order": 12,
-      "category": "Survival Guides"
-    },
-    {
-      "slug": "monster-entity",
-      "title": "The Entity Survival Guide",
-      "description": "Focused survival guide for the only confirmed enemy in It Reaches.",
-      "image": "/images/monster-entity.webp",
-      "href": "/monsters/the-entity",
-      "iconName": "skull",
-      "readingTime": "5 min",
-      "updated": "Jul 30, 2026",
-      "difficulty": "Medium",
-      "coverage": ["Behavior", "Tactics", "Body Camera"],
-      "badge": "In Progress",
-      "order": 13,
-      "category": "Survival Guides"
-    },
-    {
-      "slug": "items",
-      "title": "Items & Collectibles",
-      "description": "System-level guide to documents, key items, supplies, and missable collectibles in It Reaches.",
-      "image": "/images/story.webp",
-      "href": "/items",
-      "iconName": "book",
-      "readingTime": "5 min",
-      "updated": "Jul 30, 2026",
-      "difficulty": "Easy",
-      "coverage": ["Documents", "Key Items", "Missables"],
-      "order": 14,
-      "category": "Completion Guides"
+      "coverage": ["Key Retrieval", "Cage Lock Code", "Code Door"],
+      "order": 1,
+      "category": "Get Unstuck"
     },
     {
       "slug": "achievements",
       "title": "Achievements",
-      "description": "Framework for unlocking every trophy and achievement. Exact conditions are being verified against the full release.",
+      "description": "All 20 Steam achievements: official names, descriptions, global unlock rates, missable warnings, and per-achievement detail pages.",
       "image": "/images/achievements.webp",
       "href": "/achievements",
       "iconName": "award",
-      "readingTime": "10 min",
-      "updated": "Jul 28, 2026",
+      "readingTime": "20 achievements",
+      "updated": "Sep 8, 2026",
       "difficulty": "Normal",
-      "coverage": ["20 Achievements", "Missable Warnings", "Unlock Conditions"],
-      "badge": "In Progress",
-      "order": 15,
-      "category": "Completion Guides"
+      "coverage": ["20 Achievements", "Missable Warnings", "Global %"],
+      "order": 2,
+      "category": "Get Unstuck"
+    },
+    {
+      "slug": "collectibles",
+      "title": "Collectibles",
+      "description": "The five family collectibles: which chapter, where to look, and which achievement each one unlocks.",
+      "image": "/images/story.webp",
+      "href": "/collectibles",
+      "iconName": "book",
+      "readingTime": "5 items",
+      "updated": "Sep 8, 2026",
+      "difficulty": "Easy",
+      "coverage": ["Toy Police Car", "Toy Carousel", "Worn Football"],
+      "order": 3,
+      "category": "Get Unstuck"
+    },
+    {
+      "slug": "walkthrough",
+      "title": "Walkthrough",
+      "description": "Chapter-by-chapter progression for the five chapters seen in full-game walkthrough footage, with objectives, missables, and next-step links.",
+      "image": "/images/walkthrough.webp",
+      "href": "/walkthrough",
+      "iconName": "map",
+      "readingTime": "12 min",
+      "updated": "Sep 8, 2026",
+      "difficulty": "Medium",
+      "coverage": ["5 Chapters", "Objectives", "Missables"],
+      "order": 4,
+      "category": "Progression"
+    },
+    {
+      "slug": "the-hospital",
+      "title": "Chapter 1: The Hospital",
+      "description": "Opening chapter: body camera basics, the hospital interior, and the Trespassing achievement.",
+      "image": "/images/walkthrough.webp",
+      "href": "/walkthrough/the-hospital",
+      "iconName": "map",
+      "readingTime": "4 min",
+      "updated": "Sep 8, 2026",
+      "difficulty": "Low",
+      "coverage": ["Chapter 1", "Intro", "Documents"],
+      "order": 5,
+      "category": "Progression"
+    },
+    {
+      "slug": "the-basement",
+      "title": "Chapter 2: The Basement",
+      "description": "Escape the prison, recover your pistol, and survive the first enemies.",
+      "image": "/images/walkthrough.webp",
+      "href": "/walkthrough/the-basement",
+      "iconName": "map",
+      "readingTime": "6 min",
+      "updated": "Sep 8, 2026",
+      "difficulty": "Medium",
+      "coverage": ["Chapter 2", "Escape Artist", "Happy Reunion"],
+      "order": 6,
+      "category": "Progression"
+    },
+    {
+      "slug": "the-sewer",
+      "title": "Chapter 3: The Sewer",
+      "description": "Flooded tunnels, valve and power puzzles, the shotgun, and two family collectibles.",
+      "image": "/images/walkthrough.webp",
+      "href": "/walkthrough/the-sewer",
+      "iconName": "map",
+      "readingTime": "6 min",
+      "updated": "Sep 8, 2026",
+      "difficulty": "High",
+      "coverage": ["Chapter 3", "Armed and Ready", "Toy Police Car"],
+      "order": 7,
+      "category": "Progression"
+    },
+    {
+      "slug": "the-sewer-hideout",
+      "title": "Chapter 4: The Sewer Hideout",
+      "description": "William Blake's hideout, the remaining three family collectibles, and the hardest puzzles.",
+      "image": "/images/walkthrough.webp",
+      "href": "/walkthrough/the-sewer-hideout",
+      "iconName": "map",
+      "readingTime": "6 min",
+      "updated": "Sep 8, 2026",
+      "difficulty": "Very High",
+      "coverage": ["Chapter 4", "Science and History", "3 Collectibles"],
+      "order": 8,
+      "category": "Progression"
+    },
+    {
+      "slug": "the-organism",
+      "title": "Chapter 5: The Organism",
+      "description": "The final chapter: the last encounter, ending sequence, and remaining achievements.",
+      "image": "/images/walkthrough.webp",
+      "href": "/walkthrough/the-organism",
+      "iconName": "map",
+      "readingTime": "4 min",
+      "updated": "Sep 8, 2026",
+      "difficulty": "High",
+      "coverage": ["Chapter 5", "Final Encounter", "Endings"],
+      "order": 9,
+      "category": "Progression"
+    },
+    {
+      "slug": "endings",
+      "title": "Endings",
+      "description": "What is actually known about the endings — and what is still unverified. No invented ending names.",
+      "image": "/images/endings.webp",
+      "href": "/endings",
+      "iconName": "trophy",
+      "readingTime": "5 min",
+      "updated": "Sep 8, 2026",
+      "difficulty": "Normal",
+      "coverage": ["Verified Info", "Unverified Marked"],
+      "order": 10,
+      "category": "Progression"
     },
     {
       "slug": "faq",
       "title": "FAQ",
-      "description": "Consolidated answers to the most common questions about It Reaches.",
+      "description": "Short answers to the questions players actually search: chapters, achievements, missables, saves.",
       "image": "/images/tips.webp",
       "href": "/faq",
       "iconName": "book",
-      "readingTime": "7 min",
-      "updated": "Jul 30, 2026",
+      "readingTime": "5 min",
+      "updated": "Sep 8, 2026",
       "difficulty": "Easy",
-      "coverage": ["Basics", "Gameplay", "Story", "Achievements"],
-      "order": 16,
+      "coverage": ["Chapters", "Achievements", "Saves"],
+      "order": 11,
       "category": "Reference"
     }
   ],
   "progression": [
     {
-      "label": "New Player",
-      "href": "/tips",
-      "description": "Start with the Beginner Guide to learn body camera basics, exploration, and survival tactics."
-    },
-    {
-      "label": "Complete Walkthrough",
-      "href": "/walkthrough",
-      "description": "Follow the chapter-by-chapter guide for objectives, puzzles, and collectibles."
-    },
-    {
-      "label": "Puzzle Guide",
+      "label": "Stuck on a puzzle",
       "href": "/puzzles",
-      "description": "Look up puzzle-solving strategies and frameworks when you get stuck."
+      "description": "Go straight to the puzzle list and find the exact page for where you are stuck."
     },
     {
-      "label": "Ending Guide",
-      "href": "/endings",
-      "description": "Understand the speculative ending framework while exact conditions are being verified."
-    },
-    {
-      "label": "Achievement Guide",
+      "label": "Hunting achievements",
       "href": "/achievements",
-      "description": "Track missable trophies and plan your completionist run."
+      "description": "Check missable warnings before each chapter transition."
     },
     {
-      "label": "Story Explained",
-      "href": "/story",
-      "description": "Read the lore breakdown to fully understand the characters and the dark mystery."
+      "label": "Missing a collectible",
+      "href": "/collectibles",
+      "description": "See which chapter each family item is in and grab it before the point of no return."
+    },
+    {
+      "label": "Progressing the story",
+      "href": "/walkthrough",
+      "description": "Chapter-by-chapter objectives, danger areas, and next steps."
     }
   ],
   "faq": [
     {
-      "question": "What guides are available on this page?",
-      "answer": "This guide hub contains every major guide for It Reaches, including the Complete Walkthrough, Puzzle Guide, Endings Guide, Monster Guide, Story & Lore, and Achievement Guide."
+      "question": "What is this site for?",
+      "answer": "It Reaches Guide is a problem solver: one page per puzzle, achievement, or collectible. Every claim is labeled Verified, Community reported, or Unverified."
     },
     {
-      "question": "Where should I start as a new player?",
-      "answer": "Start with the Beginner Guide to learn the body camera perspective and survival basics, then move to the Complete Walkthrough for chapter-by-chapter progression."
+      "question": "How many chapters does It Reaches have?",
+      "answer": "Five chapters are visible in full-game walkthrough footage: The Hospital, The Basement, The Sewer, The Sewer Hideout, and The Organism. These names are community-reported, not officially confirmed by the developer."
     },
     {
-      "question": "Are all endings covered?",
-      "answer": "The Endings Guide covers a speculative framework for the likely ending types. Exact names and unlock conditions are being verified against the full release."
-    },
-    {
-      "question": "How many achievements are tracked?",
-      "answer": "The Achievement Guide tracks all 20 Steam achievements, including missable warnings and unlock conditions."
+      "question": "Why don't you list exact puzzle codes?",
+      "answer": "We only publish codes verified against evidence. Until a code is confirmed, the page says so instead of guessing."
     }
   ]
 }

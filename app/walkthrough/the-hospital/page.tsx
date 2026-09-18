@@ -19,11 +19,11 @@ const article: Article = {
   description: "The Hospital chapter walkthrough for It Reaches: objectives, key encounters, first puzzles, collectible locations, and DanQ8000 chapter timestamps.",
   href: "https://itreachesguide.com/walkthrough/the-hospital",
   publishedDate: "2026-07-30",
-  updatedDate: "2026-07-31",
+  updatedDate: "2026-09-08",
   author: "It Reaches Guide Team",
   readingTime: "5 min",
   difficulty: "Low",
-  lastReviewed: "2026-07-31",
+  lastReviewed: "2026-09-08",
   sources: [
     "Steam store page for It Reaches (App ID 4119360)",
     "DanQ8000 full gameplay walkthrough chapter timestamps",
@@ -88,6 +88,7 @@ export default function TheHospitalPage() {
       toc={toc}
       faq={[]}
       related={related}
+      verification="community"
     >
       <section id="quick-answer" className="mb-12 scroll-mt-24">
         <QuickAnswer title="Quick Answer" as="h2">
@@ -116,7 +117,7 @@ export default function TheHospitalPage() {
         puzzles={
           <>
             The Hospital contains introductory environmental puzzles: finding keys, restoring light sources, and opening locked doors.
-            Exact room names and code solutions are being verified against walkthrough footage.
+            Exact room names and code solutions are published on the puzzle pages once verified against footage.
           </>
         }
         dangerAreas={[
@@ -157,9 +158,8 @@ export default function TheHospitalPage() {
         sources={article.sources}
       />
 
-      <Notice variant="warning" title="Detailed steps coming soon" titleAs="h3">
-        We are verifying exact room names, item locations, and puzzle solutions against full-game walkthrough footage.
-        The chapter structure above is based on official chapter markers from community walkthroughs.
+      <Notice variant="warning" title="Evidence note" titleAs="h3">
+        Chapter boundaries follow chapter markers in DanQ8000&apos;s full-game walkthrough (community source, not officially confirmed). Exact room names and codes are published only after verification.
       </Notice>
     </ArticleTemplate>
   );

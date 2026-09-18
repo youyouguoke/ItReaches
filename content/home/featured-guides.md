@@ -1,100 +1,96 @@
 ---
 latest:
-  - title: Awakening Walkthrough
-    description: Chapter 1 guide covering the body camera tutorial and opening hospital area.
-    image: /images/walkthrough.webp
-    href: /walkthrough/awakening
-    iconName: map
-    readingTime: 4 min read
-    updated: Jul 30, 2026
-    difficulty: Low
-  - title: The Entity Survival Guide
-    description: Focused survival guide for the only confirmed enemy in It Reaches.
-    image: /images/monster-entity.webp
-    href: /monsters/the-entity
-    iconName: skull
-    readingTime: 5 min read
-    updated: Jul 30, 2026
-    difficulty: Medium
-  - title: Items & Collectibles
-    description: How documents, key items, and missable collectibles work in It Reaches.
-    image: /images/story.webp
-    href: /items
-    iconName: book
-    readingTime: 5 min read
-    updated: Jul 30, 2026
-    difficulty: Easy
-  - title: Hospital Keypad Codes
-    description: Solving approach and code locations being verified. Exact combinations will be added after release.
+  - title: Puzzles & Codes Hub
+    description: One page per puzzle, with solutions published only after verification.
     image: /images/puzzle.webp
     href: /puzzles
     iconName: puzzle
-    status: In Progress
+    readingTime: 6 guides
+    updated: Sep 8, 2026
+    difficulty: Mixed
+  - title: Collectibles Hub
+    description: Which chapter each of the five family collectibles is in.
+    image: /images/story.webp
+    href: /collectibles
+    iconName: book
+    readingTime: 5 items
+    updated: Sep 8, 2026
+    difficulty: Easy
+  - title: All 20 Achievements
+    description: Official names, unlock conditions, global unlock rates, and missable warnings.
+    image: /images/achievements.webp
+    href: /achievements
+    iconName: award
+    readingTime: 20 achievements
+    updated: Sep 8, 2026
+    difficulty: Normal
 updated:
-  - title: Complete Walkthrough
-    description: Step-by-step guidance through all six chapters, from Awakening to Oblivion.
+  - title: Walkthrough Restructured
+    description: Five chapters from walkthrough footage, with evidence notes and per-chapter pages.
     image: /images/walkthrough.webp
     href: /walkthrough
     iconName: map
-    readingTime: 15 min read
-    updated: Jul 30, 2026
+    readingTime: 12 min read
+    updated: Sep 8, 2026
+    difficulty: Medium
+    badge: Updated
+  - title: Endings Page Reworked
+    description: Verified facts separated from unverified claims — no invented ending names.
+    image: /images/endings.webp
+    href: /endings
+    iconName: trophy
+    readingTime: 5 min read
+    updated: Sep 8, 2026
     difficulty: Normal
     badge: Updated
-  - title: Character Guides
-    description: Jason Thompson, the Entity, and the abandoned hospital setting explained.
-    image: /images/lore.webp
-    href: /characters/jason-thompson
+  - title: FAQ Trimmed
+    description: Cut to the questions players actually search, with Unknown marked as Unknown.
+    image: /images/tips.webp
+    href: /faq
     iconName: book
-    readingTime: 12 min read
-    updated: Jul 30, 2026
+    readingTime: 4 min read
+    updated: Sep 8, 2026
     difficulty: Easy
-    badge: Updated
-  - title: Entity Guide
-    description: Survival strategies and lore for the encounter in the abandoned hospital.
-    image: /images/monster.webp
-    href: /monsters
-    iconName: skull
-    readingTime: 15 min read
-    updated: Jul 30, 2026
-    difficulty: Hard
-  - title: Puzzle Solutions
-    description: General solving strategies and framework. Specific codes and multi-step mechanisms are being verified.
+  - title: Verification Labels
+    description: Every page now shows Verified, Community reported, or Unverified at the top.
+    image: /images/achievements.webp
+    href: /guides
+    iconName: award
+    readingTime: 1 min
+    updated: Sep 8, 2026
+    difficulty: Easy
+popular:
+  - title: Puzzles & Codes
+    description: One page per puzzle: location, steps, and verified solutions.
     image: /images/puzzle.webp
     href: /puzzles
     iconName: puzzle
-    status: In Progress
-popular:
-  - title: How Long to Beat
-    description: Average playtime for main story, completionist runs, and speedrun routes.
-    image: /images/tips.webp
-    href: /tips
-    iconName: clock
-    readingTime: 3 min read
-    updated: Jul 25, 2026
-    difficulty: Easy
+    readingTime: 6 guides
+    updated: Sep 8, 2026
+    difficulty: Mixed
   - title: All 20 Achievements
     description: Complete list of every Steam achievement with unlock conditions and missable warnings.
     image: /images/achievements.webp
     href: /achievements
     iconName: award
     readingTime: 8 min read
-    updated: Jul 30, 2026
+    updated: Sep 8, 2026
     difficulty: Normal
     badge: Updated
+  - title: Collectibles
+    description: The five family items and which chapter each is in.
+    image: /images/story.webp
+    href: /collectibles
+    iconName: book
+    readingTime: 5 items
+    updated: Sep 8, 2026
+    difficulty: Easy
   - title: FAQ
-    description: Consolidated answers to the most common questions about It Reaches.
+    description: Short answers to the most common questions about It Reaches.
     image: /images/tips.webp
     href: /faq
     iconName: book
-    readingTime: 7 min read
-    updated: Jul 30, 2026
-    difficulty: Easy
-  - title: Bodycam Mechanics
-    description: How the bodycam perspective affects visibility, stamina, and encounters.
-    image: /images/tips.webp
-    href: /tips
-    iconName: brain
-    readingTime: 5 min read
-    updated: Jul 23, 2026
+    readingTime: 4 min read
+    updated: Sep 8, 2026
     difficulty: Easy
 ---

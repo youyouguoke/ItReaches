@@ -19,11 +19,11 @@ const article: Article = {
   description: "The Sewer Hideout chapter walkthrough for It Reaches: William Blake's Hideout, multi-step puzzles, remaining family collectibles, DanQ8000 timestamps, and progression to The Organism.",
   href: "https://itreachesguide.com/walkthrough/the-sewer-hideout",
   publishedDate: "2026-07-30",
-  updatedDate: "2026-07-31",
+  updatedDate: "2026-09-08",
   author: "It Reaches Guide Team",
   readingTime: "5 min",
   difficulty: "High",
-  lastReviewed: "2026-07-31",
+  lastReviewed: "2026-09-08",
   sources: [
     "Steam store page for It Reaches (App ID 4119360)",
     "DanQ8000 full gameplay walkthrough chapter timestamps",
@@ -73,11 +73,11 @@ const related = [
     tag: "Walkthrough",
   },
   {
-    title: "Items & Collectibles",
-    description: "Where to find every family collectible.",
+    title: "Collectibles",
+    description: "Which chapter each of the five family collectibles is in.",
     image: "/images/story.webp",
-    href: "/items",
-    tag: "Items",
+    href: "/collectibles",
+    tag: "Collectibles",
   },
 ];
 
@@ -89,6 +89,7 @@ export default function TheSewerHideoutPage() {
       toc={toc}
       faq={[]}
       related={related}
+      verification="community"
     >
       <section id="quick-answer" className="mb-12 scroll-mt-24">
         <QuickAnswer title="Quick Answer" as="h2">
@@ -119,7 +120,7 @@ export default function TheSewerHideoutPage() {
         puzzles={
           <>
             Expect the game&apos;s most complex environmental puzzles in this chapter, possibly including the cage lock and code door referenced by players.
-            Exact solutions are being verified against walkthrough footage.
+            Exact solutions are published on the puzzle pages once verified against footage.
           </>
         }
         dangerAreas={[
@@ -134,7 +135,7 @@ export default function TheSewerHideoutPage() {
           "Last documents and lore items before the ending.",
         ]}
         tips={[
-          "Save before entering The Organism; this is likely the point of no return.",
+          "Save before entering The Organism; this is the point of no return for chapter-specific cleanup.",
           "Check every room in the hideout before progressing -- several achievements depend on it.",
           "If you are missing collectibles, backtrack before the final transition.",
         ]}
@@ -150,10 +151,10 @@ export default function TheSewerHideoutPage() {
             <div className="text-foreground font-headline-sm mb-1">The Organism</div>
             <div className="text-sm text-on-surface-variant">The final chapter and conclusion of It Reaches.</div>
           </a>
-          <a href="/items" className="block p-6 bg-surface-container-low border border-white/5 hover:border-primary/30 transition-colors">
+          <a href="/collectibles" className="block p-6 bg-surface-container-low border border-white/5 hover:border-primary/30 transition-colors">
             <div className="text-[10px] uppercase tracking-widest font-label text-primary mb-2">Collectibles</div>
-            <div className="text-foreground font-headline-sm mb-1">Items & Collectibles</div>
-            <div className="text-sm text-on-surface-variant">All five family collectibles and their video timestamps.</div>
+            <div className="text-foreground font-headline-sm mb-1">Collectibles</div>
+            <div className="text-sm text-on-surface-variant">All five family collectibles and which chapter each is in.</div>
           </a>
         </div>
       </section>
@@ -163,9 +164,8 @@ export default function TheSewerHideoutPage() {
         sources={article.sources}
       />
 
-      <Notice variant="warning" title="Detailed steps coming soon" titleAs="h3">
-        We are verifying exact collectible placements, puzzle solutions, and safe routes against full-game walkthrough footage.
-        The chapter structure above is based on official chapter markers from community walkthroughs.
+      <Notice variant="warning" title="Evidence note" titleAs="h3">
+        Chapter boundaries follow chapter markers in DanQ8000&apos;s full-game walkthrough (community source, not officially confirmed). Collectible routes and puzzle solutions are published only after verification.
       </Notice>
     </ArticleTemplate>
   );

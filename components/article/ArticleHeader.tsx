@@ -1,4 +1,4 @@
-import { Badge } from "@/components/ui/Badge";
+import { VerificationBadge, type VerificationStatus } from "@/components/ui/VerificationBadge";
 
 interface ArticleHeaderProps {
   title: string;
@@ -9,7 +9,7 @@ interface ArticleHeaderProps {
   readingTime?: string;
   difficulty?: string;
   author?: string;
-  verified?: boolean;
+  verification?: VerificationStatus;
   status?: "inProgress" | "complete" | "stub";
 }
 
@@ -22,7 +22,7 @@ export function ArticleHeader({
   readingTime,
   difficulty,
   author = "It Reaches Guide Team",
-  verified = true,
+  verification = "unverified",
   status = "complete",
 }: ArticleHeaderProps) {
   return (
@@ -105,7 +105,7 @@ export function ArticleHeader({
           </div>
         )}
 
-        {verified && <Badge variant="verified">Verified Guide</Badge>}
+        {verification && <VerificationBadge status={verification} />}
       </div>
 
       {lastReviewed && (
