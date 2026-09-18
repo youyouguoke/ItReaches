@@ -1,4 +1,5 @@
 import { ArticleTemplate } from "@/components/templates/ArticleTemplate";
+import { getHeroImage } from "@/lib/hero-images";
 import { QuickAnswer } from "@/components/article/QuickAnswer";
 import { Notice } from "@/components/ui/Notice";
 import { VerificationBadge } from "@/components/ui/VerificationBadge";
@@ -110,10 +111,7 @@ export default function PuzzlesPage() {
       faq={faq}
       related={related}
       verification="community"
-      heroImage={{
-        src: "/images/heroes/puzzles.jpg",
-        alt: "It Reaches gameplay: the Basement Cage Lock padlock puzzle",
-      }}
+      heroImage={getHeroImage("puzzles")}
     >
       <section id="quick-answer" className="mb-12 scroll-mt-24">
         <QuickAnswer title="Quick Answer" as="h2">

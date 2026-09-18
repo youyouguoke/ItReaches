@@ -1,4 +1,5 @@
 import { ArticleTemplate } from "@/components/templates/ArticleTemplate";
+import { getHeroImage } from "@/lib/hero-images";
 import { QuickAnswer } from "@/components/article/QuickAnswer";
 import { Notice } from "@/components/ui/Notice";
 import { Article } from "@/types/article";
@@ -100,10 +101,7 @@ export default function EndingsPage() {
       faq={faq}
       related={related}
       verification="unverified"
-      heroImage={{
-        src: "/images/heroes/endings.jpg",
-        alt: "It Reaches gameplay: police car escape finale at the end of The Sewer",
-      }}
+      heroImage={getHeroImage("endings")}
     >
       <section id="quick-answer" className="mb-12 scroll-mt-24">
         <QuickAnswer title="Quick Answer" as="h2">

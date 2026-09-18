@@ -19,7 +19,7 @@ interface ArticleTemplateProps {
   related: Guide[];
   children: React.ReactNode;
   verification?: "verified" | "community" | "unverified";
-  heroImage?: { src: string; alt: string };
+  heroImage?: { src: string; alt: string; blurDataURL: string };
 }
 
 export function ArticleTemplate({
@@ -48,6 +48,8 @@ export function ArticleTemplate({
               fill
               priority
               sizes="100vw"
+              placeholder="blur"
+              blurDataURL={heroImage.blurDataURL}
               className="object-cover object-center"
             />
             <div className="absolute inset-0 bg-gradient-to-b from-[#0B0B0F]/80 via-[#0B0B0F]/65 to-[#0B0B0F]" />

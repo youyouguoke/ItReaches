@@ -1,4 +1,5 @@
 import { ArticleTemplate } from "@/components/templates/ArticleTemplate";
+import { getHeroImage } from "@/lib/hero-images";
 import { QuickAnswer } from "@/components/article/QuickAnswer";
 import { Notice } from "@/components/ui/Notice";
 import { SourcesAndDisclaimer } from "@/components/article/SourcesAndDisclaimer";
@@ -154,10 +155,7 @@ export default function FAQPage() {
       faq={faq}
       related={related}
       verification="verified"
-      heroImage={{
-        src: "/images/heroes/faq.jpg",
-        alt: "It Reaches gameplay: the Mutant encounter in the Basement maintenance area",
-      }}
+      heroImage={getHeroImage("faq")}
     >
       <section id="quick-answer" className="mb-12 scroll-mt-24">
         <QuickAnswer title="Quick Answer" as="h2">

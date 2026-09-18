@@ -1,4 +1,5 @@
 import { ArticleTemplate } from "@/components/templates/ArticleTemplate";
+import { getHeroImage } from "@/lib/hero-images";
 import { QuickAnswer } from "@/components/article/QuickAnswer";
 import { Notice } from "@/components/ui/Notice";
 import { Badge } from "@/components/ui/Badge";
@@ -114,10 +115,7 @@ export default function AchievementsPage() {
       faq={faq}
       related={related}
       verification="verified"
-      heroImage={{
-        src: "/images/heroes/achievements.jpg",
-        alt: "It Reaches gameplay: shotgun pickup room in The Sewer Hideout",
-      }}
+      heroImage={getHeroImage("achievements")}
     >
       <section id="quick-answer" className="mb-12 scroll-mt-24">
         <QuickAnswer title="Quick Answer" as="h2">

@@ -1,4 +1,5 @@
 import { ArticleTemplate } from "@/components/templates/ArticleTemplate";
+import { getHeroImage } from "@/lib/hero-images";
 import { QuickAnswer } from "@/components/article/QuickAnswer";
 import { Notice } from "@/components/ui/Notice";
 import { ProgressTable } from "@/components/article/ProgressTable";
@@ -139,10 +140,7 @@ export default function WalkthroughPage() {
       faq={faq}
       related={related}
       verification="community"
-      heroImage={{
-        src: "/images/heroes/walkthrough.jpg",
-        alt: "It Reaches gameplay: hospital hallway on the first floor",
-      }}
+      heroImage={getHeroImage("walkthrough")}
     >
       <HowToSchema
         title="It Reaches Walkthrough"

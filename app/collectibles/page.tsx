@@ -1,4 +1,5 @@
 import { ArticleTemplate } from "@/components/templates/ArticleTemplate";
+import { getHeroImage } from "@/lib/hero-images";
 import { QuickAnswer } from "@/components/article/QuickAnswer";
 import { Notice } from "@/components/ui/Notice";
 import { Badge } from "@/components/ui/Badge";
@@ -110,10 +111,7 @@ export default function CollectiblesPage() {
       faq={faq}
       related={related}
       verification="community"
-      heroImage={{
-        src: "/images/heroes/collectibles.jpg",
-        alt: "It Reaches gameplay: Toy Police Car collectible in the Memory Area",
-      }}
+      heroImage={getHeroImage("collectibles")}
     >
       <section id="quick-answer" className="mb-12 scroll-mt-24">
         <QuickAnswer title="Quick Answer" as="h2">
